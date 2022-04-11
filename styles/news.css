@@ -1,0 +1,43 @@
+.news {
+    margin: 30px auto 0;
+}
+
+.news > h3 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;    
+    color: #272727;
+}
+
+
+.news__headline {
+    margin-top: 17px;
+    width: 184px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #5c5c5c;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .news__headline-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 31px;
+
+  }
+  
+  .news__headline-block > p {
+    margin: 0;
+  }
+  
+  .news__headline-block > img {
+    height: 100%;
+    width: 12px;
+  }

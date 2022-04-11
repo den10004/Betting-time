@@ -1,0 +1,16 @@
+@import "./header.css";
+@import "./banner.css";
+@import "./forecast.css";
+@import "./experts.css";
+@import "./news.css";
+@import "./today.css";
+@import "./headlineBlocks.css";
+@import "./normalize.css";
+@import "../vendor/fonts.css";
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1440px;
+  background: white;
+}

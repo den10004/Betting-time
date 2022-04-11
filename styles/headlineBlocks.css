@@ -1,0 +1,38 @@
+ 
+  .headlineBlocks__wrapper {
+    margin: 0 auto;
+    width: 95%;
+  }
+  
+  .headlineBlocks__headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+  }
+  
+  .headlineBlocks__headline > h4 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #272727;
+    margin: 0;
+  }
+  
+  .headlineBlocks__headline > a {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #5c5c5c;
+    text-decoration: none;
+    margin: 0;
+  }
+  
+  .headlineBlocks__headline > img {
+    width: 30px;
+    height: 8px;
+  }
