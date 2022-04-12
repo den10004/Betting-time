@@ -1,0 +1,96 @@
+.feedback {
+  margin: 20px auto 40px auto;
+}
+
+.feedback__headline {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #272727;
+}
+
+.feedback__form {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__field > input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #009efd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding-left: 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #272727;
+}
+
+.feedback__form-checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.feedback__form-checkbox > input {
+  border: 1px solid #5c5c5c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback__form-checkbox > span {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 130%;
+  color: #272727;
+  margin-left: 5px;
+}
+
+.feedback__form-checkbox > span > a {
+  color: #272727;
+}
+
+.feedback__form-checkbox > span > a:hover {
+  color: #009efd;
+}
+
+/*вилидация*/
+
+.form__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+  position: absolute;
+}
+
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+
+input:invalid:not(:placeholder-shown) + .form__error {
+  display: flex;
+}

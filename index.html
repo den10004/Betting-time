@@ -12,7 +12,6 @@
     <meta name="keywords" content="">
     <meta name="robots" content="">
     <link rel="stylesheet" href="./styles/styles.css" />
-
   </head>
   <body>
     <header class="header">
@@ -23,14 +22,13 @@
 
       <div class="header__left">
         <div class='lng'>
-                <a href="#" class="lng__link">Ru</a>
-                <div class="lng__list-wrapper">
-                  <div class="lng__list">
-                    <div href="#">En<div>
-                    <div href="#">De<div>
-                  </div>
+            <a href="#" class="lng__link">Ru</a>
+              <div class="lng__list-wrapper">
+                <div class="lng__list">
+                  <div href="#">Uzb<div>
                 </div>
-          </div>
+              </div>
+        </div>
       </div>
       
     </header>
@@ -55,10 +53,10 @@
           <div class="forecast__image">
             <img src="./images/main.png" alt="bunner"> 
   
-               <div class="forecast__image-clock">
+            <div class="clock__label">
               <img src="./images/clock.png">
               <span>Начало через 15:52</span>
-            </div>
+           </div>
   
   
             <div class="forecast__wrapperBlock">
@@ -109,10 +107,10 @@
           <div class="forecast__image">
             <img src="./images/main.png" alt="bunner"> 
   
-               <div class="forecast__image-clock">
+            <div class="clock__label">
               <img src="./images/clock.png">
               <span>Начало через 15:52</span>
-            </div>
+           </div>
   
   
             <div class="forecast__wrapperBlock">
@@ -162,10 +160,10 @@
           <div class="forecast__image">
             <img src="./images/main.png" alt="bunner"> 
   
-               <div class="forecast__image-clock">
+            <div class="clock__label">
               <img src="./images/clock.png">
               <span>Начало через 15:52</span>
-            </div>
+           </div>
   
   
             <div class="forecast__wrapperBlock">
@@ -226,26 +224,42 @@
         <div class="headlineBlocks__headline">
           <h4>Эксперты</h4>
           <a href="#">Смотреть всех экспертов</a>
-          <img src="./images/arrow.png">
+          <button class="swiper-button-expert" style="border: none; background: white; cursor: pointer"><img src="./images/arrow.png"></button>
+     
+        </div>
+
+   
+        <div class="swiper expertsSwiper mt20">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="experts__slider-block">
+                <img src="./images/expert.png">
+                <p>Сергей Цаплин</p>
+              </div>
+            </div>
+            <div class="swiper-slide">  
+              <div class="experts__slider-block">
+                <img src="./images/expert.png">
+                <p>Сергей Цаплин</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">  
+              <div class="experts__slider-block">
+                <img src="./images/expert.png">
+                <p>Сергей Цаплин</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">  
+              <div class="experts__slider-block">
+                <img src="./images/expert.png">
+                <p>Сергей Цаплин</p>
+              </div>
+            </div>
         </div>
 
 
-       <div class="experts__slider">
-        <div class="experts__slider-block">
-          <img src="./images/expert.png">
-          <p>Сергей Цаплин</p>
-        </div>
-
-        <div class="experts__slider-block">
-          <img src="./images/expert.png">
-          <p>Сергей Цаплин</p>
-        </div>
-
-        <div class="experts__slider-block">
-          <img src="./images/expert.png">
-          <p>Сергей Цаплин</p>
-        </div>
-      </div>
 
       </div>
     </div>
@@ -441,9 +455,237 @@
           </div>
         </div>
         </div>
-
     </div>
  
+    <div class="bonus">
+        <div class="headlineBlocks__wrapper">
+        <div class="headlineBlocks__headline">
+          <h4>Бонусы</h4>
+          <a href="#">Смотреть все бонусы</a>
+          <button class="swiper-button-bonus" style="border: none; background: white; cursor: pointer"><img src="./images/arrow.png"></button>
+        </div>      
+   
+        <div class="swiper bonusSwiper mt20">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/bonus.png">
 
+              <div class="clock__label">
+                <img src="./images/clock.png">
+                <span>Начало через 15:52</span>
+              </div>
+            
+            </div>
+            <div class="swiper-slide"><img src="./images/bonus.png">
+              <div class="clock__label">
+                <img src="./images/clock.png">
+                <span>Начало через 15:52</span>
+              </div>
+            
+            </div>
+            <div class="swiper-slide"><img src="./images/bonus.png">
+              <div class="clock__label">
+                <img src="./images/clock.png">
+                <span>Начало через 15:52</span>
+              </div>
+            </div>
+            <div class="swiper-slide"><img src="./images/bonus.png">
+              <div class="clock__label">
+                <img src="./images/clock.png">
+                <span>Начало через 15:52</span>
+              </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="feedback__text">
+          <h4>Леон: бонус до 6000 рублей за ставки на баскетбол, волейбол и гандбол</h4>
+          <p>БК «Леон» разыгрывает призовой фонд 100000 рублей для любителей ставок на баскетбол, волейбол или гандбол.</p>
+          <button class="button160" type="submit">Отправить</button>     
+        </div>
+    </div>
+
+
+
+    
+    <div class="blog">
+      <div class="headlineBlocks__wrapper">
+        <div class="headlineBlocks__headline">
+          <h4>Блоги</h4>
+          <a href="#">Читать все статьи</a>
+          <img src="./images/arrow.png">
+        </div> 
+
+          <div class="blog__block">
+            <h3>На что ставить в чемпионате Казахстана по футболу?</h3>
+
+            <img src="./images/blog.png" alt="image-blog">
+
+            <div class="blog__headline">
+              <div class="blog__headline-left">
+                <img src="./images/photo.png" alt="photo-blog">
+                <p>Блог Сергея Цаплина</p>
+              </div>
+            <div class="blog__headline-right">
+              <p>9.03.22</p>
+              <p>15:20</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog__block">
+          <h3>На что ставить в чемпионате Казахстана по футболу?</h3>
+
+          <img src="./images/blog.png" alt="image-blog">
+
+          <div class="blog__headline">
+            <div class="blog__headline-left">
+              <img src="./images/photo.png" alt="photo-blog">
+              <p>Блог Сергея Цаплина</p>
+            </div>
+          <div class="blog__headline-right">
+            <p>9.03.22</p>
+            <p>15:20</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog__block">
+        <h3>На что ставить в чемпионате Казахстана по футболу?</h3>
+
+        <img src="./images/blog.png" alt="image-blog">
+
+        <div class="blog__headline">
+          <div class="blog__headline-left">
+            <img src="./images/photo.png" alt="photo-blog">
+            <p>Блог Сергея Цаплина</p>
+          </div>
+          <div class="blog__headline-right">
+            <p>9.03.22</p>
+            <p>15:20</p>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+    </div>
+
+    <div class="feedback">
+      <div class="headlineBlocks__wrapper">
+        <h3 class="feedback__headline">Напишите, если у вас есть вопросы</h3>
+
+        <form class="feedback__form">
+          <div class="form__field">
+            <input placeholder="Ваше имя" type="text" name="name"
+            pattern="^[А-Яа-яЁё\s]+$"
+            minlength="1"          
+            >
+            <span class="form__error">Введите имя</span>
+          </div>
+
+            <div class="form__field">
+              <input placeholder="Email" type="email" name="name">
+              <span class="form__error">Это поле должно содержать E-Mail в формате example@site.com</span>
+            
+          </div>
+          
+          <div class="form__field">
+            <input placeholder="Ваше сообщение" type="text" name="text"
+            pattern="^[А-Яа-яЁё\s0-9]+$"
+            minlength="1" 
+            >
+            <span class="form__error">Введите сообщение</span>
+          </div>
+          
+          <div class="feedback__form-checkbox">
+            <input type="checkbox"> 
+            <span>Даю согласие на <a href="/">обработку персональных данных</a></span>
+          </div>
+          <button class="button160 mt15" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__headline">
+        <img src="./images/logo-footer.png">
+
+        <div class='footer__lng'>
+          <a href="#" class="footer__lng-link">Ru</a>
+            <div class="footer__lng-list-wrapper">
+              <div class="footer__lng-list">
+           <!--     <div href="#">En<div>
+                <div href="#">KZ<div>-->
+              </div>
+            </div>
+        </div>
+
+        
+      </div>
+
+      <div class="footer__main">
+        <div class="footer__main-left">
+          <div>
+            <h6 class="footer__main-hedline margin0">Прогнозы</h6>
+            <ul class="footer__main-list">
+              <li><a href="/">На сегодня</a></li>
+              <li><a href="/">На завтра</a></li>
+              <li><a href="/">Завершенные прогнозы</a></li>
+              <li><a href="/">Все прогнозы</a></li>
+          </ul>
+          </div>
+
+          <div>
+            <h6 class="footer__main-hedline margin0">Бонусы</h6>
+              <ul class="footer__main-list">
+              <li><a href="/">Все бонусы</a></li>
+              <li><a href="/">Для новых игроков</a></li>
+              <li><a href="/">Бонусы на депозит</a></li>
+              <li><a href="/">Фрибеты</a></li>
+              <li><a href="/">Страховые ставки</a></li>
+              <li><a href="/">Кеш-бонусы</a></li>
+              <li><a href="/">Повышенные коэфициенты</a></li>
+              <li><a href="/">Приз</a></li>
+              <li><a href="/">Конкурсы</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__main-right">
+          <div>
+            <h6 class="footer__main-hedline margin0">Беттинг-центр</h6>
+            <ul class="footer__main-list">
+              <li><a href="/">Матчи сегодня</a></li>
+              <li><a href="/">Матчи завтра</a></li>
+              <li><a href="/">Все матчи</a></li>
+          </ul>
+          </div>
+
+          <div>
+            <h6 class="footer__main-hedline">о нас</h6>
+          </div>
+          <div>
+            <h6 class="footer__main-hedline">Новости</h6>
+          </div>
+          <div>
+            <h6 class="footer__main-hedline">Эксперты</h6>
+          </div>
+          <div>
+            <h6 class="footer__main-hedline">Блоги</h6>
+          </div>
+          <div>
+            <h6 class="footer__main-hedline">Политика конфиденциальности</h6>
+          </div>
+        </div>
+
+     
+      </div>
+      <p>При использовании материалов сайта на других ресурсах активная ссылка на сайт обязательна.</p>
+
+
+    </footer>
+  
   </body>
+    <script src="./swiper-bundle.js"></script>
+    <script src="./script.js"></script>
+
 </html>

@@ -4,6 +4,12 @@
 @import "./experts.css";
 @import "./news.css";
 @import "./today.css";
+@import "./bonus.css";
+@import "./blog.css";
+@import "./feedback.css";
+@import "./footer.css";
+
+@import "./swiper-bundle.css";
 @import "./headlineBlocks.css";
 @import "./normalize.css";
 @import "../vendor/fonts.css";
@@ -13,4 +19,125 @@ body {
   padding: 0;
   width: 100%;
   background: white;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+/******кнопки*********/
+.button160 {
+  width: 160px;
+  height: 50px;
+  background: #009efd;
+  border-radius: 5px;
+  border: 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button160:active {
+  background: linear-gradient(
+    102.9deg,
+    #32b8f8 3.56%,
+    #2fe06b 47.5%,
+    #32b8f8 92.36%
+  );
+}
+
+.feedback__text {
+  margin-top: 15px;
+}
+
+.feedback__text > h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #272727;
+}
+
+.feedback__text > p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #272727;
+}
+
+.clock__label {
+  position: absolute;
+  display: flex;
+  width: 156px;
+  height: 22px;
+  background: #009efd;
+  border-radius: 5px;
+  color: white;
+  padding-left: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  top: 5px;
+  left: 5px;
+}
+
+.clock__label > img {
+  width: 12px;
+  height: 12px;
+}
+
+.clock__label > span {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  margin-left: 10px;
 }
