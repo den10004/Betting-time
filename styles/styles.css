@@ -7,6 +7,8 @@
 @import "./bonus.css";
 @import "./blog.css";
 @import "./feedback.css";
+
+@import "./description.css";
 @import "./footer.css";
 
 @import "./swiper-bundle.css";
@@ -90,6 +92,60 @@ body {
   );
 }
 
+.buttonYes {
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #1daf38;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #1daf38;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .buttonYes {
+    width: 150px;
+  }
+}
+
+.buttonYes:active {
+  background: #1daf38;
+  color: white;
+}
+
+.buttonNo {
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #f44242;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #f44242;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .buttonNo {
+    width: 150px;
+  }
+}
+
+.buttonNo:active {
+  background: #f44242;
+  color: white;
+}
+
 .feedback__text {
   margin-top: 15px;
 }
@@ -140,4 +196,23 @@ body {
   line-height: 12px;
   color: #ffffff;
   margin-left: 10px;
+}
+
+/******Forecast button slider*******/
+.forecast1__slider-block > button {
+  height: 30px;
+  background: #f4f4f4;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  color: #5c5c5c;
+}
+
+.last > button {
+  width: 200px;
 }
