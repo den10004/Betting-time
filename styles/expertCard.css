@@ -1,0 +1,205 @@
+.expertCard__grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 7px;
+  width: 300px;
+  padding: 10px 10px 10px 10px;
+}
+
+.expertCard__grid > div {
+  text-align: left;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #272727;
+}
+
+.content__switch {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 130%;
+  color: #272727;
+  margin-top: 5px;
+  padding-left: 10px;
+  width: 130px;
+}
+
+/*табы */
+.expertCard__tabs {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.expertCard__tabs > input[type="radio"] {
+  display: none;
+}
+
+.expertCard__tabs > input[type="radio"]:checked + label {
+  font-weight: bold;
+  cursor: default;
+  text-decoration: underline;
+}
+
+.expertCard__tabs > div {
+  display: none;
+}
+
+#tab-btn-1:checked ~ #content-1,
+#tab-btn-2:checked ~ #content-2 {
+  display: block;
+}
+
+.expertCard__tabs > label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 2px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.expertCard__tabs > label:first-of-type {
+  margin-left: 0;
+}
+
+/******************************************/
+.container {
+  width: 95%;
+  margin: 20px auto;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+.expertCard__accordion {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  color: #272727;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 70px;
+  box-sizing: border-box;
+}
+
+.expertCard__accordion-label {
+  display: flex;
+  align-items: center;
+}
+
+.expertCard__accordion-label > span {
+  margin-left: 10px;
+}
+
+.expertCard__accordion::after {
+  content: url("../images/stroke.png");
+  position: absolute;
+  right: 20px;
+}
+
+.expertCard__accordion.active::after {
+  content: url("../images/stroke.png");
+  transform: rotate(180deg);
+}
+
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.answer {
+  padding: 0 20px 20px;
+  margin: 0 auto;
+}
+
+.answercont-wrap {
+  max-width: 335px;
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+}
+
+@media screen and (max-width: 374px) {
+  .answercont-wrap {
+    max-width: 310px;
+  }
+}
+
+.answer__inputBlocks {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.answer__buttonBlocks-block {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 10px;
+}
+
+.answer__inputBlocks-block > span {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #5c5c5c;
+}
+
+.answer__inputBlocks-block > input {
+  width: 165px;
+  height: 40px;
+  border: 1px solid #009efd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #272727;
+  text-align: center;
+}
+
+@media screen and (max-width: 374px) {
+  .answer__inputBlocks-block > input {
+    width: 150px;
+  }
+}
+
+.answer__inputBlocks-block > h4 {
+  width: 165px;
+  height: 40px;
+  border: 1px solid #009efd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #272727;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 374px) {
+  .answer__inputBlocks-block > h4 {
+    width: 150px;
+  }
+}

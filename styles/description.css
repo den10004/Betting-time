@@ -58,6 +58,13 @@
   width: 345px;
 }
 
+.forecast__buttonOne {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px auto;
+  width: 345px;
+}
+
 @media screen and (max-width: 345px) {
   .forecast__buttons {
     width: 100%;

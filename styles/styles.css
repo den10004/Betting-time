@@ -7,8 +7,11 @@
 @import "./bonus.css";
 @import "./blog.css";
 @import "./feedback.css";
-
+@import "./expertCard.css";
+@import "./tag.css";
+@import "./share.css";
 @import "./description.css";
+@import "./expertsCards.css";
 @import "./footer.css";
 
 @import "./swiper-bundle.css";
