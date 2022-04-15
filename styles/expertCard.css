@@ -4,7 +4,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 7px;
   width: 300px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 0px;
 }
 
 .expertCard__grid > div {
@@ -34,8 +34,15 @@
 /*табы */
 .expertCard__tabs {
   width: 280px;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.expertCard__tabs > label {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 130%;
+  color: #5c5c5c;
 }
 
 .expertCard__tabs > input[type="radio"] {
@@ -53,7 +60,8 @@
 }
 
 #tab-btn-1:checked ~ #content-1,
-#tab-btn-2:checked ~ #content-2 {
+#tab-btn-2:checked ~ #content-2,
+#tab-btn-3:checked ~ #content-3 {
   display: block;
 }
 
@@ -63,7 +71,7 @@
   vertical-align: middle;
   user-select: none;
   padding: 2px 0;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 1.5;
   transition: color 0.15s ease-in-out;
   margin-left: 6px;

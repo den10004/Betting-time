@@ -1,0 +1,28 @@
+.aboutExpert {
+  margin: 20px;
+}
+
+.aboutExpert {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #272727;
+  max-width: 173px;
+  margin: 20px 0 0;
+}
+
+.aboutExpert > p {
+  margin: 5px 0 0;
+}
+
+.aboutExpert__about {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #272727;
+  margin: 15px 0 0;
+}

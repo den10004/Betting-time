@@ -86,7 +86,7 @@
 .forecast__headline-left {
   display: flex;
   justify-content: space-between;
-  width: 150px;
+  width: 200px;
 }
 
 .forecast__headline-left > p {
@@ -100,8 +100,7 @@
 .forecast__headline-right {
   display: flex;
   justify-content: space-between;
-  /* width: 65px;*/
-  width: auto;
+  width: 65px;
 }
 
 .forecast__match {

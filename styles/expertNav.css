@@ -1,0 +1,50 @@
+.expertNav {
+  margin-top: 20px;
+}
+
+.expertNav__link {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 350px;
+}
+
+@media screen and (max-width: 374px) {
+  .expertNav__link {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+}
+
+.expertNav__link > button {
+  height: 30px;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.expertNav__link-deactive {
+  background-color: #f4f4f4;
+}
+
+.expertNav__link-active {
+  background-color: #009efd;
+}
+
+.expertNav__link-deactive {
+  text-decoration: none;
+  color: #5c5c5c;
+}
+
+.expertNav__link-active {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,19 @@
+.otherExperts {
+  margin-top: 30px;
+}
+
+.otherExperts > h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272727;
+}
+
+.otherExperts__cards {
+  display: flex;
+  justify-content: space-between;
+  width: 346px;
+  margin: 0 auto;
+}

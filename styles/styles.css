@@ -12,6 +12,17 @@
 @import "./share.css";
 @import "./description.css";
 @import "./expertsCards.css";
+@import "./expertPage.css";
+@import "./expertNav.css";
+@import "./aboutExpert.css";
+@import "./otherExperts.css";
+@import "./schedule.css";
+@import "./forecastBlog.css";
+@import "./dropDown.css";
+@import "./otherNews.css";
+@import "./mainNews.css";
+@import "./match-center.css";
+
 @import "./footer.css";
 
 @import "./swiper-bundle.css";
@@ -67,6 +78,10 @@ body {
 
 .mt15 {
   margin-top: 15px;
+}
+
+.mtmb5 {
+  margin: 5px 0px 5px 0;
 }
 
 /******кнопки*********/
@@ -149,6 +164,22 @@ body {
   color: white;
 }
 
+.buttonWhite {
+  max-width: 157px;
+  height: 50px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #009efd;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #009efd;
+  cursor: pointer;
+}
+
 .feedback__text {
   margin-top: 15px;
 }
@@ -218,4 +249,9 @@ body {
 
 .last > button {
   width: 200px;
+}
+
+.newsHr {
+  width: 100%;
+  color: #f4f4f4;
 }

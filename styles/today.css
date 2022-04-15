@@ -59,9 +59,8 @@
 }
 
 .today__table-hedline > p {
-    margin: 0;
-  }
-  
+  margin: 0;
+}
 
 .today__table-hedline > div > p {
   margin: 3px auto 0;
@@ -89,4 +88,14 @@
 .today > hr {
   color: #f4f4f4;
   opacity: 0.2;
+}
+
+.today__paragraph {
+  margin-top: 36px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #272727;
 }

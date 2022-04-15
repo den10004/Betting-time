@@ -1,0 +1,57 @@
+.blogs {
+  margin: 30px auto 0;
+}
+
+.blogs__image > h3 {
+  font-family: "Gilroy";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #272727;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.blogs__image > img {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.blogs__headline {
+  margin-top: 10px;
+  width: 100%;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #5c5c5c;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogs__headline-left {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.blogs__headline-left > p {
+  margin: 0;
+}
+
+.blogs__headline-right > p {
+  margin: 0;
+}
+
+.blogs__headline-right {
+  display: flex;
+  justify-content: space-between;
+  width: 65px;
+  align-items: center;
+  cursor: pointer;
+}
