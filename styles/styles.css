@@ -22,7 +22,7 @@
 @import "./otherNews.css";
 @import "./mainNews.css";
 @import "./match-center.css";
-
+@import "./blogs.css";
 @import "./footer.css";
 
 @import "./swiper-bundle.css";
@@ -252,6 +252,5 @@ body {
 }
 
 .newsHr {
-  width: 100%;
   color: #f4f4f4;
 }
