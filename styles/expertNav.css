@@ -48,3 +48,16 @@
   text-decoration: none;
   color: white;
 }
+
+.expertNavSlider {
+  height: 30px;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}

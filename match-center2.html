@@ -13,23 +13,75 @@
   <body>
     <header class="header">
       <div class="header__right">
-        <button>
-          <img src="./images/header-button.png" alt="header-button" />
-          <img src="./images/logo.png" alt="logo" />
-        </button>
+        <nav>
+          <input type="checkbox" name="menu" id="btn-menu" />
+          <label for="btn-menu" class="images">
+            <img src="./images/header-button.png" alt="header-button" />
+            <img src="./images/logo.png" alt="logo"
+          /></label>
+
+          <ul class="acor-container">
+            <input type="checkbox" name="chacor" id="chacor1" />
+            <label for="chacor1">Прогнозы</label>
+            <div class="acor-body">
+              <ul>
+                <li><a href="./forecast.html">Все прогнозы</a></li>
+                <li><a href="./forecast.html">На сегодня</a></li>
+                <li><a href="./forecast.html">На завтра</a></li>
+                <li><a href="./forecast.html">Завершенные прогнозы</a></li>
+              </ul>
+            </div>
+
+            <input type="checkbox" name="chacor" id="chacor2" />
+            <label for="chacor2">Матч-центр</label>
+            <div class="acor-body">
+              <ul>
+                <li><a href="./match-center.html">Все матчи</a></li>
+                <li><a href="./match-center.html">матчи сегодня</a></li>
+                <li><a href="./match-center.html">матчи завтра</a></li>
+              </ul>
+            </div>
+
+            <input type="checkbox" name="chacor" id="chacor3" />
+            <label for="chacor3">Бонусы</label>
+            <div class="acor-body">
+              <ul>
+                <li><a href="/bonus.html">Все бонусы</a></li>
+                <li><a href="/bonus.html">Для новых игроков</a></li>
+                <li><a href="/bonus.html">Бонусы на депозит</a></li>
+                <li><a href="/bonus.html">Фрибеты</a></li>
+                <li><a href="/bonus.html">Страховые ставки</a></li>
+                <li><a href="/bonus.html">Кеш-бонус</a></li>
+                <li><a href="/bonus.html">Повышенные коэфициенты</a></li>
+                <li><a href="/bonus.html">Приз</a></li>
+                <li><a href="/bonus.html">Конкурсы</a></li>
+              </ul>
+            </div>
+
+            <div class="acor-links">
+              <a href="./expertMain.html">Эксперты</a>
+              <a href="./news.html">Новости</a>
+              <a href="./blogs.html">Блоги</a>
+            </div>
+
+            <input type="checkbox" name="chacor" id="chacor4" />
+            <label for="chacor4">О нас</label>
+            <div class="acor-body">
+              <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="#">Политика сайта</a></li>
+              </ul>
+            </div>
+          </ul>
+        </nav>
       </div>
 
       <h1>Матч-центр</h1>
-
       <div class="header__left">
-        <div class="lng">
-          <a href="#" class="lng__link">Ru</a>
-          <div class="lng__list-wrapper">
-            <div class="lng__list">
-              <div><a href="/">Uzb</a></div>
-            </div>
-          </div>
-        </div>
+        <select class="change-lang">
+          <option value="ru" selected>Ru</option>
+          <option value="uzb">Uzb</option>
+        </select>
       </div>
     </header>
 
@@ -371,15 +423,10 @@
       <div class="footer__headline">
         <img src="./images/logo-footer.png" />
 
-        <div class="footer__lng">
-          <a href="#" class="footer__lng-link">Ru</a>
-          <div class="footer__lng-list-wrapper">
-            <div class="footer__lng-list">
-              <!--     <div href="#">En<div>
-                            <div href="#">KZ<div>-->
-            </div>
-          </div>
-        </div>
+        <select class="footer__headline-change-lang">
+          <option value="ru" selected>Ru</option>
+          <option value="uzb">Uzb</option>
+        </select>
       </div>
 
       <div class="footer__main">
