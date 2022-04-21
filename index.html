@@ -5,672 +5,769 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Betting Time</title>
-    <meta
-      name="description"
-      content=""
-    />
-    <meta name="keywords" content="">
-    <meta name="robots" content="">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="" />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <header class="header">
-      <div class="header__right">
-    <nav>
-      <input type="checkbox" name="menu" id="btn-menu" />
-      <label for="btn-menu" class="images">      
-        <img src="./images/header-button.png" alt="header-button" />
-        <img src="./images/logo.png" alt="logo" /></label>
+      <div class="max">
+        <div class="header__right">
+          <label class="label">
+            <img src="./images/logo.png" alt="logo" />
+          </label>
+        </div>
 
-      <ul class="acor-container">
-        <input type="checkbox" name="chacor" id="chacor1" />
-        <label for="chacor1">Прогнозы</label>
-        <div class="acor-body">
-          <ul>
-            <li><a href="./forecast.html">Все прогнозы</a></li>
-            <li><a href="./forecast.html">На сегодня</a></li>
-            <li><a href="./forecast.html">На завтра</a></li>
-            <li><a href="./forecast.html">Завершенные прогнозы</a></li>
+        <div class="header__middle">
+          <ul class="menu">
+            <li class="list">
+              <a href="#">Прогнозы</a>
+
+              <ul class="items">
+                <li><a href="./forecast.html">Все прогнозы</a></li>
+                <li><a href="./forecast.html">На сегодня</a></li>
+                <li><a href="./forecast.html">На завтра</a></li>
+                <li><a href="./forecast.html">Завершенные прогнозы</a></li>
+              </ul>
+            </li>
+            <li class="list">
+              <a href="#">Матч-центр</a>
+              <ul class="items">
+                <li><a href="./match-center.html">Все матчи</a></li>
+                <li><a href="./match-center.html">матчи сегодня</a></li>
+                <li><a href="./match-center.html">матчи завтра</a></li>
+              </ul>
+            </li>
+            <li class="list">
+              <a href="#">Бонусы</a>
+              <ul class="items">
+                <li><a href="/bonus.html">Все бонусы</a></li>
+                <li><a href="/bonus.html">Для новых игроков</a></li>
+                <li><a href="/bonus.html">Бонусы на депозит</a></li>
+                <li><a href="/bonus.html">Фрибеты</a></li>
+                <li><a href="/bonus.html">Страховые ставки</a></li>
+                <li><a href="/bonus.html">Кеш-бонус</a></li>
+                <li><a href="/bonus.html">Повышенные коэфициенты</a></li>
+                <li><a href="/bonus.html">Приз</a></li>
+                <li><a href="/bonus.html">Конкурсы</a></li>
+              </ul>
+            </li>
+          </ul>
+          <h2><a href="./expertMain.html">Эксперты</a></h2>
+
+          <ul class="menu">
+            <li class="link">
+              <a href="#">Новости</a>
+            </li>
+
+            <li class="link">
+              <a href="#">Блоги</a>
+            </li>
+
+            <li class="list">
+              <a href="#">О нас</a>
+              <ul class="items">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Политика сайта</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
 
-        <input type="checkbox" name="chacor" id="chacor2" />
-        <label for="chacor2">Матч-центр</label>
-        <div class="acor-body">
-          <ul>
-            <li><a href="./match-center.html">Все матчи</a></li>
-            <li><a href="./match-center.html">матчи сегодня</a></li>
-            <li><a href="./match-center.html">матчи завтра</a></li>
-          </ul>
+        <div class="header__left">
+          <select class="change-lang">
+            <option value="ru" selected>Ru</option>
+            <option value="uzb">Uzb</option>
+          </select>
         </div>
-
-        <input type="checkbox" name="chacor" id="chacor3" />
-        <label for="chacor3">Бонусы</label>
-        <div class="acor-body">
-          <ul>
-            <li><a href="/bonus.html">Все бонусы</a></li>
-            <li><a href="/bonus.html">Для новых игроков</a></li>
-            <li><a href="/bonus.html">Бонусы на депозит</a></li>
-            <li><a href="/bonus.html">Фрибеты</a></li>
-            <li><a href="/bonus.html">Страховые ставки</a></li>
-            <li><a href="/bonus.html">Кеш-бонус</a></li>
-            <li><a href="/bonus.html">Повышенные коэфициенты</a></li>
-            <li><a href="/bonus.html">Приз</a></li>
-            <li><a href="/bonus.html">Конкурсы</a></li>
-          </ul>
-        </div>
-
-        <div class="acor-links">
-          <a href="./expertMain.html">Эксперты</a>
-          <a href="./news.html">Новости</a>
-          <a href="./blogs.html">Блоги</a>
-        </div>
-
-
- 
-
-        <input type="checkbox" name="chacor" id="chacor4" />
-        <label for="chacor4">О нас</label>
-        <div class="acor-body">
-          <ul>
-            <li><a href="/">Главная</a></li>
-            <li><a href="#">Политика сайта</a></li>
-          </ul>
-        </div>
-      </ul>
-    </nav>
-
-    </div>
-     <div class="header__left">
-      <select class="change-lang">
-        <option value="ru" selected>Ru</option>
-        <option value="uzb">Uzb</option>
-      </select>
-    </div>
-  </header>
-
-    <div class="banner">
-      <div class="banner__wrapper">
-         <img src="./images/bunner.png" alt="bunner"> 
-        <button>Сделать ставку</button>
       </div>
-    </div>
 
-    <!--FORECAST BLOCK-->
-    <div class="forecast">
-      <div class="headlineBlocks__wrapper">
+      <div class="min">
+        <nav>
+          <input type="checkbox" name="menu" id="btn-menu" />
+          <label for="btn-menu" class="header-btn">
+            <img src="./images/header-button.png" alt="header-button" />
+            <img src="./images/logo.png" alt="logo" />
+          </label>
+
+          <ul class="acor-container">
+            <input type="checkbox" name="chacor" id="chacor1" />
+            <label for="chacor1">Прогнозы</label>
+            <div class="acor-body">
+              <ul>
+                <li><a href="./forecast.html">Все прогнозы</a></li>
+                <li><a href="./forecast.html">На сегодня</a></li>
+                <li><a href="./forecast.html">На завтра</a></li>
+                <li><a href="./forecast.html">Завершенные прогнозы</a></li>
+              </ul>
+            </div>
+
+            <input type="checkbox" name="chacor" id="chacor2" />
+            <label for="chacor2">Матч-центр</label>
+            <div class="acor-body">
+              <ul>
+                <li><a href="./match-center.html">Все матчи</a></li>
+                <li><a href="./match-center.html">матчи сегодня</a></li>
+                <li><a href="./match-center.html">матчи завтра</a></li>
+              </ul>
+            </div>
+
+            <input type="checkbox" name="chacor" id="chacor3" />
+            <label for="chacor3">Бонусы</label>
+            <div class="acor-body">
+              <ul>
+                <li><a href="/bonus.html">Все бонусы</a></li>
+                <li><a href="/bonus.html">Для новых игроков</a></li>
+                <li><a href="/bonus.html">Бонусы на депозит</a></li>
+                <li><a href="/bonus.html">Фрибеты</a></li>
+                <li><a href="/bonus.html">Страховые ставки</a></li>
+                <li><a href="/bonus.html">Кеш-бонус</a></li>
+                <li><a href="/bonus.html">Повышенные коэфициенты</a></li>
+                <li><a href="/bonus.html">Приз</a></li>
+                <li><a href="/bonus.html">Конкурсы</a></li>
+              </ul>
+            </div>
+
+            <div class="acor-links">
+              <a href="./expertMain.html">Эксперты</a>
+              <a href="./news.html">Новости</a>
+              <a href="./blogs.html">Блоги</a>
+            </div>
+            <input type="checkbox" name="chacor" id="chacor4" />
+            <label for="chacor4">О нас</label>
+            <div class="acor-body">
+              <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="#">Политика сайта</a></li>
+              </ul>
+            </div>
+          </ul>
+        </nav>
+
+        <div class="header__left">
+          <select class="change-lang">
+            <option value="ru" selected>Ru</option>
+            <option value="uzb">Uzb</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <div style="max-width: 1440px; margin: 0 auto">
+      <div class="banner">
+        <div class="banner__wrapper">
+          <img src="./images/bunner.png" alt="bunner" />
+          <button>Сделать ставку</button>
+        </div>
+      </div>
+
+      <div class="forecast">
+        <div class="headlineBlocks__wrapper">
           <div class="headlineBlocks__headline">
-            <h4>Прогнозы</h4>
+            <a href="./forecast.html"><h4>Прогнозы</h4></a>
             <a href="#">Смотреть все прогнозы</a>
-            <img src="./images/arrow.png">
-        </div>
+            <img src="./images/arrow.png" />
+          </div>
 
-        <div>
-          <div class="forecast__image">
-            <img src="./images/main.png" alt="bunner"> 
-  
-            <div class="clock__label">
-              <img src="./images/clock.png">
-              <span>Начало через 15:52</span>
-           </div>
-  
-  
-            <div class="forecast__wrapperBlock">
-              <div class="forecast__icons">
-                <img src="./images/dinamo-logo.png">
-                <img src="./images/fakel-logo.png">
+          <div>
+            <div class="forecast__image">
+              <img src="./images/main.png" alt="bunner" />
+
+              <div class="clock__label">
+                <img src="./images/clock.png" />
+                <span>Начало через 15:52</span>
               </div>
-              <div class="forecast__wrapperBlock2">
+
+              <div class="forecast__wrapperBlock">
+                <div class="forecast__icons">
+                  <img src="./images/dinamo-logo.png" />
+                  <img src="./images/fakel-logo.png" />
+                </div>
+                <div class="forecast__wrapperBlock2">
                   <div class="forecast__image-border">
-                  <span>Цаплин</span>
-              </div>  
-  
-              <div class="forecast__image-border backgroundColor-white">
-                <img src="./images/f.png">
-                <span class="color">1.95</span>
-              </div>
-              </div>
-            </div>      
-          </div>
-  
-          <div class="forecast__headline">
-            <div class="forecast__headline-left">
-              <p>Волейбол</p>
-              <p>Суперлига</p>
-              <p>Цаплин</p>
-            </div>
-  
-            <div class="forecast__headline-right">
-              <p>9.03.22</p>
-              <p>15:20</p>
-            </div>
-          </div>
-  
-          <div class="forecast__match">
-            <h4>Динамо-ЛО — Факел</h4>
-            <div class="forecast__match-block">
-              <img src="./images/photo.png">
-                <p>Прогноз и ставка от Сергея Цаплина:<br>Победа Динамо-ЛО с форой (-13,5)</p>
-            </div>   
-            <progress value="63" max="100">80%</progress>
-            <p>63% за</p>   
-          </div>
-  
-        </div>
-  
+                    <span>Цаплин</span>
+                  </div>
 
-        <div>
-          <div class="forecast__image">
-            <img src="./images/main.png" alt="bunner"> 
-  
-            <div class="clock__label">
-              <img src="./images/clock.png">
-              <span>Начало через 15:52</span>
-           </div>
-  
-  
-            <div class="forecast__wrapperBlock">
-              <div class="forecast__icons">
-                <img src="./images/dinamo-logo.png">
-                <img src="./images/fakel-logo.png">
+                  <div class="forecast__image-border backgroundColor-white">
+                    <img src="./images/f.png" />
+                    <span class="color">1.95</span>
+                  </div>
+                </div>
               </div>
-              <div class="forecast__wrapperBlock2">
+            </div>
+
+            <div class="forecast__headline">
+              <div class="forecast__headline-left">
+                <p>Волейбол</p>
+                <p>Суперлига</p>
+                <p>Цаплин</p>
+              </div>
+
+              <div class="forecast__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
+            </div>
+
+            <div class="forecast__match">
+              <h4>Динамо-ЛО — Факел</h4>
+              <div class="forecast__match-block">
+                <img src="./images/photo.png" />
+                <p>
+                  Прогноз и ставка от Сергея Цаплина:<br />Победа Динамо-ЛО с
+                  форой (-13,5)
+                </p>
+              </div>
+              <progress value="63" max="100">80%</progress>
+              <p>63% за</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="forecast__image">
+              <img src="./images/main.png" alt="bunner" />
+
+              <div class="clock__label">
+                <img src="./images/clock.png" />
+                <span>Начало через 15:52</span>
+              </div>
+
+              <div class="forecast__wrapperBlock">
+                <div class="forecast__icons">
+                  <img src="./images/dinamo-logo.png" />
+                  <img src="./images/fakel-logo.png" />
+                </div>
+                <div class="forecast__wrapperBlock2">
                   <div class="forecast__image-border">
-                  <span>Цаплин</span>
-              </div>  
-  
-              <div class="forecast__image-border backgroundColor-white">
-                <img src="./images/f.png">
-                <span class="color">1.95</span>
+                    <span>Цаплин</span>
+                  </div>
+
+                  <div class="forecast__image-border backgroundColor-white">
+                    <img src="./images/f.png" />
+                    <span class="color">1.95</span>
+                  </div>
+                </div>
               </div>
-              </div>
-            </div>      
-          </div>
-  
-          <div class="forecast__headline">
-            <div class="forecast__headline-left">
-              <p>Волейбол</p>
-              <p>Суперлига</p>
-              <p>Цаплин</p>
             </div>
-  
-            <div class="forecast__headline-right">
-              <p>9.03.22</p>
-              <p>15:20</p>
+
+            <div class="forecast__headline">
+              <div class="forecast__headline-left">
+                <p>Волейбол</p>
+                <p>Суперлига</p>
+                <p>Цаплин</p>
+              </div>
+
+              <div class="forecast__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
+            </div>
+
+            <div class="forecast__match">
+              <h4>Динамо-ЛО — Факел</h4>
+              <div class="forecast__match-block">
+                <img src="./images/photo.png" />
+                <p>
+                  Прогноз и ставка от Сергея Цаплина:<br />Победа Динамо-ЛО с
+                  форой (-13,5)
+                </p>
+              </div>
+              <progress value="63" max="100">80%</progress>
+              <p>63% за</p>
             </div>
           </div>
-  
-          <div class="forecast__match">
-            <h4>Динамо-ЛО — Факел</h4>
-            <div class="forecast__match-block">
-              <img src="./images/photo.png">
-                <p>Прогноз и ставка от Сергея Цаплина:<br>Победа Динамо-ЛО с форой (-13,5)</p>
-            </div>   
-            <progress value="63" max="100">80%</progress>
-            <p>63% за</p>   
-          </div>
-  
-        </div>
-  
-        <div>
-          <div class="forecast__image">
-            <img src="./images/main.png" alt="bunner"> 
-  
-            <div class="clock__label">
-              <img src="./images/clock.png">
-              <span>Начало через 15:52</span>
-           </div>
-  
-  
-            <div class="forecast__wrapperBlock">
-              <div class="forecast__icons">
-                <img src="./images/dinamo-logo.png">
-                <img src="./images/fakel-logo.png">
+
+          <div>
+            <div class="forecast__image">
+              <img src="./images/main.png" alt="bunner" />
+
+              <div class="clock__label">
+                <img src="./images/clock.png" />
+                <span>Начало через 15:52</span>
               </div>
-              <div class="forecast__wrapperBlock2">
+
+              <div class="forecast__wrapperBlock">
+                <div class="forecast__icons">
+                  <img src="./images/dinamo-logo.png" />
+                  <img src="./images/fakel-logo.png" />
+                </div>
+                <div class="forecast__wrapperBlock2">
                   <div class="forecast__image-border">
-                  <span>Цаплин</span>
-              </div>  
-  
-              <div class="forecast__image-border backgroundColor-white">
-                <img src="./images/f.png">
-                <span class="color">1.95</span>
+                    <span>Цаплин</span>
+                  </div>
+
+                  <div class="forecast__image-border backgroundColor-white">
+                    <img src="./images/f.png" />
+                    <span class="color">1.95</span>
+                  </div>
+                </div>
               </div>
+            </div>
+
+            <div class="forecast__headline">
+              <div class="forecast__headline-left">
+                <p>Волейбол</p>
+                <p>Суперлига</p>
+                <p>Цаплин</p>
               </div>
-            </div>      
-          </div>
-  
-          <div class="forecast__headline">
-            <div class="forecast__headline-left">
-              <p>Волейбол</p>
-              <p>Суперлига</p>
-              <p>Цаплин</p>
+
+              <div class="forecast__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
             </div>
-  
-            <div class="forecast__headline-right">
-              <p>9.03.22</p>
-              <p>15:20</p>
+
+            <div class="forecast__match">
+              <h4>Динамо-ЛО — Факел</h4>
+              <div class="forecast__match-block">
+                <img src="./images/photo.png" />
+                <p>
+                  Прогноз и ставка от Сергея Цаплина:<br />Победа Динамо-ЛО с
+                  форой (-13,5)
+                </p>
+              </div>
+              <progress value="63" max="100">80%</progress>
+              <p>63% за</p>
             </div>
           </div>
-  
-          <div class="forecast__match">
-            <h4>Динамо-ЛО — Факел</h4>
-            <div class="forecast__match-block">
-              <img src="./images/photo.png">
-                <p>Прогноз и ставка от Сергея Цаплина:<br>Победа Динамо-ЛО с форой (-13,5)</p>
-            </div>   
-            <progress value="63" max="100">80%</progress>
-            <p>63% за</p>   
-          </div>
-  
         </div>
-  
-
-
-
       </div>
 
+      <div class="experts">
+        <div class="headlineBlocks__wrapper">
+          <div class="headlineBlocks__headline">
+            <a href="./expertMain.html"><h4>Эксперты</h4></a>
+            <a href="#">Смотреть всех экспертов</a>
+            <button
+              class="swiper-button-expert"
+              style="border: none; background: white; cursor: pointer"
+            >
+              <img src="./images/arrow.png" />
+            </button>
+          </div>
+          <div class="swiper expertsSwiper mt20">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="experts__slider-block">
+                  <img src="./images/expert.png" />
+                  <p>Сергей Цаплин</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="experts__slider-block">
+                  <img src="./images/expert.png" />
+                  <p>Сергей Цаплин</p>
+                </div>
+              </div>
 
-    </div>
+              <div class="swiper-slide">
+                <div class="experts__slider-block">
+                  <img src="./images/expert.png" />
+                  <p>Сергей Цаплин</p>
+                </div>
+              </div>
 
-
-    <!--EXPERTS BLOCK-->
-    <div class="experts">
-      <div class="headlineBlocks__wrapper">
-        <div class="headlineBlocks__headline">
-          <h4>Эксперты</h4>
-          <a href="#">Смотреть всех экспертов</a>
-          <button class="swiper-button-expert" style="border: none; background: white; cursor: pointer"><img src="./images/arrow.png"></button>
-     
+              <div class="swiper-slide">
+                <div class="experts__slider-block">
+                  <img src="./images/expert.png" />
+                  <p>Сергей Цаплин</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-   
-        <div class="swiper expertsSwiper mt20">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="experts__slider-block">
-                <img src="./images/expert.png">
-                <p>Сергей Цаплин</p>
-              </div>
-            </div>
-            <div class="swiper-slide">  
-              <div class="experts__slider-block">
-                <img src="./images/expert.png">
-                <p>Сергей Цаплин</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">  
-              <div class="experts__slider-block">
-                <img src="./images/expert.png">
-                <p>Сергей Цаплин</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">  
-              <div class="experts__slider-block">
-                <img src="./images/expert.png">
-                <p>Сергей Цаплин</p>
-              </div>
-            </div>
-        </div>
-
-
-
       </div>
-    </div>
 
-        <!--NEWS BLOCK-->
-        <div class="news">
+      <div class="news">
+        <div class="headlineBlocks__wrapper">
+          <div class="headlineBlocks__headline">
+            <a href="./news.html"> <h4>Новости</h4></a>
+            <a href="./news.html">Смотреть все новости</a>
+            <img src="./images/arrow.png" />
+          </div>
+
+          <div class="headlineBlocks__wrapper-cards">
+            <div class="forecast__headline">
+              <div class="forecast__headline-left">
+                <p>Футбол</p>
+                <p>Галатасарай</p>
+                <p>Барселона</p>
+                <p>...</p>
+              </div>
+
+              <div class="forecast__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
+            </div>
+
+            <h3 class="">
+              Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с
+              «Галатасараем»
+            </h3>
+
+            <div class="news__headline">
+              <div class="news__headline-block">
+                <p>54</p>
+                <img src="./images/like.png" alt="like" />
+              </div>
+              <div class="news__headline-block">
+                <p>5</p>
+                <img src="./images/dislike.png" alt="dislike" />
+              </div>
+              <div class="news__headline-block">
+                <p>2</p>
+                <img src="./images/repost.png" alt="repost" />
+              </div>
+              <div class="news__headline-block">
+                <p>500</p>
+                <img src="./images/views.png" alt="views" />
+              </div>
+            </div>
+          </div>
+
+          <div class="headlineBlocks__wrapper-cards">
+            <div class="forecast__headline">
+              <div class="forecast__headline-left">
+                <p>Футбол</p>
+                <p>Галатасарай</p>
+                <p>Барселона</p>
+                <p>...</p>
+              </div>
+
+              <div class="forecast__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
+            </div>
+
+            <h3>
+              Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с
+              «Галатасараем»
+            </h3>
+
+            <div class="news__headline">
+              <div class="news__headline-block">
+                <p>54</p>
+                <img src="./images/like.png" alt="like" />
+              </div>
+              <div class="news__headline-block">
+                <p>5</p>
+                <img src="./images/dislike.png" alt="dislike" />
+              </div>
+              <div class="news__headline-block">
+                <p>2</p>
+                <img src="./images/repost.png" alt="repost" />
+              </div>
+              <div class="news__headline-block">
+                <p>500</p>
+                <img src="./images/views.png" alt="views" />
+              </div>
+            </div>
+          </div>
+
+          <div class="headlineBlocks__wrapper-cards">
+            <div class="forecast__headline">
+              <div class="forecast__headline-left">
+                <p>Футбол</p>
+                <p>Галатасарай</p>
+                <p>Барселона</p>
+                <p>...</p>
+              </div>
+
+              <div class="forecast__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
+            </div>
+
+            <h3>
+              Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с
+              «Галатасараем»
+            </h3>
+
+            <div class="news__headline">
+              <div class="news__headline-block">
+                <p>54</p>
+                <img src="./images/like.png" alt="like" />
+              </div>
+              <div class="news__headline-block">
+                <p>5</p>
+                <img src="./images/dislike.png" alt="dislike" />
+              </div>
+              <div class="news__headline-block">
+                <p>2</p>
+                <img src="./images/repost.png" alt="repost" />
+              </div>
+              <div class="news__headline-block">
+                <p>500</p>
+                <img src="./images/views.png" alt="views" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="today">
+        <div class="headlineBlocks__wrapper">
+          <div class="headlineBlocks__headline">
+            <a href="./match-center-forecast.html"><h4>Матчи сегодня</h4></a>
+
+            <a href="#">Смотреть все матчи</a>
+            <img src="./images/arrow.png" />
+          </div>
+        </div>
+
+        <div>
           <div class="headlineBlocks__wrapper">
-            <div class="headlineBlocks__headline">
-              <h4>Новости</h4>
-              <a href="#">Смотреть все новости</a>
-              <img src="./images/arrow.png">
+            <h4>Хоккей</h4>
+            <div class="today__table">
+              <img src="./images/flag1.png" />
+              <p>КХЛ</p>
             </div>
+            <div class="today__table-hedline font">
+              <p>Матч</p>
+              <p>Хозяева</p>
+              <p>Ничья</p>
+              <p>Гости</p>
+            </div>
+          </div>
 
-            <div class="headlineBlocks__wrapper-cards"> 
-              <div class="forecast__headline">
-                <div class="forecast__headline-left">
-                  <p>Футбол</p>
-                  <p>Галатасарай</p>
-                  <p>Барселона</p>
-                  <p>...</p>
-                </div>
-    
-              <div class="forecast__headline-right">
-                <p>9.03.22</p>
-                <p>15:20</p>
-              </div>
-              </div>
-
-              <h3 class="">Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с «Галатасараем»</h3>
-
-              <div class="news__headline">
-                <div class="news__headline-block">
-                  <p>54</p>
-                  <img src="./images/like.png" alt="like">
-                </div>
-                <div class="news__headline-block">
-                  <p>5</p>
-                  <img src="./images/dislike.png" alt="dislike">
-                </div>    
-                <div class="news__headline-block">
-                  <p>2</p> 
-                  <img src="./images/repost.png" alt="repost">
-                </div>
-                  <div class="news__headline-block">
-                  <p>500</p>
-                  <img src="./images/views.png" alt="views">
-                </div>
-              </div>
-            </div> 
-
-            <div class="headlineBlocks__wrapper-cards"> 
-              <div class="forecast__headline">
-                <div class="forecast__headline-left">
-                  <p>Футбол</p>
-                  <p>Галатасарай</p>
-                  <p>Барселона</p>
-                  <p>...</p>
-                </div>
-      
-                <div class="forecast__headline-right">
-                  <p>9.03.22</p>
-                  <p>15:20</p>
-                </div>
-              </div>
-
-              <h3>Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с «Галатасараем»</h3>
-
-              <div class="news__headline">
-                <div class="news__headline-block">
-                  <p>54</p>
-                  <img src="./images/like.png" alt="like">
-                </div>
-                <div class="news__headline-block">
-                  <p>5</p>
-                  <img src="./images/dislike.png" alt="dislike">
-                </div>    
-                <div class="news__headline-block">
-                  <p>2</p> 
-                  <img src="./images/repost.png" alt="repost">
-                </div>
-                  <div class="news__headline-block">
-                  <p>500</p>
-                  <img src="./images/views.png" alt="views">
-                </div>
-              </div>
-            </div> 
-
-            <div class="headlineBlocks__wrapper-cards"> 
-              <div class="forecast__headline">
-                <div class="forecast__headline-left">
-                  <p>Футбол</p>
-                  <p>Галатасарай</p>
-                  <p>Барселона</p>
-                  <p>...</p>
-                </div>
-    
-              <div class="forecast__headline-right">
-                <p>9.03.22</p>
-                <p>15:20</p>
-              </div>
-              </div>
-
-              <h3>Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с «Галатасараем»</h3>
-
-              <div class="news__headline">
-                <div class="news__headline-block">
-                  <p>54</p>
-                  <img src="./images/like.png" alt="like">
-                </div>
-                <div class="news__headline-block">
-                  <p>5</p>
-                  <img src="./images/dislike.png" alt="dislike">
-                </div>    
-                <div class="news__headline-block">
-                  <p>2</p> 
-                  <img src="./images/repost.png" alt="repost">
-                </div>
-                  <div class="news__headline-block">
-                  <p>500</p>
-                  <img src="./images/views.png" alt="views">
-                </div>
-              </div>
-            </div> 
+          <hr />
+          <div class="headlineBlocks__wrapper">
+            <div class="today__table-hedline">
+              <p class="today__table-hedline-p">
+                Салават Юлаев — Сибирь<br /><span>20:45</span>
+              </p>
+              <div><p>3.25</p></div>
+              <div><p>3.25</p></div>
+              <div><p>3.25</p></div>
+              <p class="today__table-hedline-p">
+                Салават Юлаев — Сибирь<br /><span>20:45</span>
+              </p>
+              <div><p>3.25</p></div>
+              <div><p>3.25</p></div>
+              <div><p>3.25</p></div>
+            </div>
           </div>
         </div>
 
-    <!--TODAY BLOCK-->
-    <div class="today">
-      <div class="headlineBlocks__wrapper">
-        <div class="headlineBlocks__headline">
-          <h4>Матчи сегодня</h4>
-          <a href="#">Смотреть все матчи</a>
-          <img src="./images/arrow.png">
-        </div> 
-      </div>
+        <div>
+          <div class="headlineBlocks__wrapper">
+            <h4>Футбол</h4>
 
-      <div>
-      <div class="headlineBlocks__wrapper"> 
-        <h4>Хоккей</h4>
-        <div class="today__table">
-         <img src="./images/flag1.png">
-         <p>КХЛ</p>  
-        </div>
-        <div class="today__table-hedline font">
-          <p>Матч</p>
-          <p>Хозяева</p>
-          <p>Ничья</p>
-          <p>Гости</p>
-        </div>
-      </div>
-      
-      <hr>
-      <div class="headlineBlocks__wrapper">
-        <div class="today__table-hedline">
-          <p class="today__table-hedline-p">Салават Юлаев — Сибирь<br><span>20:45</span></p>
-            <div><p>3.25</p></div>
-            <div><p>3.25</p></div>
-            <div><p>3.25</p></div>
-            <p class="today__table-hedline-p">Салават Юлаев — Сибирь<br><span>20:45</span></p>
-            <div><p>3.25</p></div>
-            <div><p>3.25</p></div>
-            <div><p>3.25</p></div>
-        </div>
-      </div>
-      </div>
-
-      <div>
-        <div class="headlineBlocks__wrapper"> 
-          <h4>Футбол</h4>
-          <div class="today__table">
-           <img src="./images/flag2.png">
-           <p>Лига Европы</p>  
+            <div class="today__table">
+              <img src="./images/flag2.png" />
+              <p>Лига Европы</p>
+            </div>
+            <div class="today__table-hedline font">
+              <p>Матч</p>
+              <p>Хозяева</p>
+              <p>Ничья</p>
+              <p>Гости</p>
+            </div>
           </div>
-          <div class="today__table-hedline font">
-            <p>Матч</p>
-            <p>Хозяева</p>
-            <p>Ничья</p>
-            <p>Гости</p>
+
+          <hr />
+          <div class="headlineBlocks__wrapper">
+            <div class="today__table-hedline">
+              <p class="today__table-hedline-p">
+                Атлетико Мадрид — Кадис<br /><span>20:45</span>
+              </p>
+              <div><p>3.25</p></div>
+              <div><p>3.25</p></div>
+              <div><p>3.25</p></div>
+              <p class="today__table-hedline-p">
+                Атлетико Мадрид — Кадис<br /><span>20:45</span>
+              </p>
+              <div><p>3.25</p></div>
+              <div><p>3.25</p></div>
+              <div><p>3.25</p></div>
+            </div>
           </div>
         </div>
-        
-        <hr>
+      </div>
+
+      <div class="bonus">
         <div class="headlineBlocks__wrapper">
-          <div class="today__table-hedline">
-            <p class="today__table-hedline-p">Атлетико Мадрид — Кадис<br><span>20:45</span></p>
-              <div><p>3.25</p></div>
-              <div><p>3.25</p></div>
-              <div><p>3.25</p></div>
-              <p class="today__table-hedline-p">Атлетико Мадрид — Кадис<br><span>20:45</span></p>
-              <div><p>3.25</p></div>
-              <div><p>3.25</p></div>
-              <div><p>3.25</p></div>
+          <div class="headlineBlocks__headline">
+            <a href="./bonus.html"><h4>Бонусы</h4></a>
+
+            <a href="./bonus2.html">Смотреть все бонусы</a>
+            <button
+              class="swiper-button-bonus"
+              style="border: none; background: white; cursor: pointer"
+            >
+              <img src="./images/arrow.png" />
+            </button>
+          </div>
+
+          <div class="swiper bonusSwiper mt20">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/bonus.png" />
+
+                <div class="clock__label">
+                  <img src="./images/clock.png" />
+                  <span>Начало через 15:52</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/bonus.png" />
+                <div class="clock__label">
+                  <img src="./images/clock.png" />
+                  <span>Начало через 15:52</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/bonus.png" />
+                <div class="clock__label">
+                  <img src="./images/clock.png" />
+                  <span>Начало через 15:52</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/bonus.png" />
+                <div class="clock__label">
+                  <img src="./images/clock.png" />
+                  <span>Начало через 15:52</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feedback__text">
+            <h4>
+              Леон: бонус до 6000 рублей за ставки на баскетбол, волейбол и
+              гандбол
+            </h4>
+            <p>
+              БК «Леон» разыгрывает призовой фонд 100000 рублей для любителей
+              ставок на баскетбол, волейбол или гандбол.
+            </p>
+            <button class="button160" type="submit">Отправить</button>
           </div>
         </div>
-        </div>
-    </div>
- 
-    <div class="bonus">
+      </div>
+
+      <div class="blog">
         <div class="headlineBlocks__wrapper">
-        <div class="headlineBlocks__headline">
-          <h4>Бонусы</h4>
-          <a href="#">Смотреть все бонусы</a>
-          <button class="swiper-button-bonus" style="border: none; background: white; cursor: pointer"><img src="./images/arrow.png"></button>
-        </div>      
-   
-        <div class="swiper bonusSwiper mt20">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="./images/bonus.png">
+          <div class="headlineBlocks__headline">
+            <a href="./blogs.html"><h4>Блоги</h4></a>
 
-              <div class="clock__label">
-                <img src="./images/clock.png">
-                <span>Начало через 15:52</span>
-              </div>
-            
-            </div>
-            <div class="swiper-slide"><img src="./images/bonus.png">
-              <div class="clock__label">
-                <img src="./images/clock.png">
-                <span>Начало через 15:52</span>
-              </div>
-            
-            </div>
-            <div class="swiper-slide"><img src="./images/bonus.png">
-              <div class="clock__label">
-                <img src="./images/clock.png">
-                <span>Начало через 15:52</span>
-              </div>
-            </div>
-            <div class="swiper-slide"><img src="./images/bonus.png">
-              <div class="clock__label">
-                <img src="./images/clock.png">
-                <span>Начало через 15:52</span>
-              </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="feedback__text">
-          <h4>Леон: бонус до 6000 рублей за ставки на баскетбол, волейбол и гандбол</h4>
-          <p>БК «Леон» разыгрывает призовой фонд 100000 рублей для любителей ставок на баскетбол, волейбол или гандбол.</p>
-          <button class="button160" type="submit">Отправить</button>     
-        </div>
-    </div>
-
-
-
-    
-    <div class="blog">
-      <div class="headlineBlocks__wrapper">
-        <div class="headlineBlocks__headline">
-          <h4>Блоги</h4>
-          <a href="#">Читать все статьи</a>
-          <img src="./images/arrow.png">
-        </div> 
+            <a href="./blogs2.html">Читать все статьи</a>
+            <img src="./images/arrow.png" />
+          </div>
 
           <div class="blog__block">
             <h3>На что ставить в чемпионате Казахстана по футболу?</h3>
 
-            <img src="./images/blog.png" alt="image-blog">
+            <img src="./images/blog.png" alt="image-blog" />
 
             <div class="blog__headline">
               <div class="blog__headline-left">
-                <img src="./images/photo.png" alt="photo-blog">
+                <img src="./images/photo.png" alt="photo-blog" />
                 <p>Блог Сергея Цаплина</p>
               </div>
-            <div class="blog__headline-right">
-              <p>9.03.22</p>
-              <p>15:20</p>
+              <div class="blog__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="blog__block">
-          <h3>На что ставить в чемпионате Казахстана по футболу?</h3>
+          <div class="blog__block">
+            <h3>На что ставить в чемпионате Казахстана по футболу?</h3>
 
-          <img src="./images/blog.png" alt="image-blog">
+            <img src="./images/blog.png" alt="image-blog" />
 
-          <div class="blog__headline">
-            <div class="blog__headline-left">
-              <img src="./images/photo.png" alt="photo-blog">
-              <p>Блог Сергея Цаплина</p>
+            <div class="blog__headline">
+              <div class="blog__headline-left">
+                <img src="./images/photo.png" alt="photo-blog" />
+                <p>Блог Сергея Цаплина</p>
+              </div>
+              <div class="blog__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
             </div>
-          <div class="blog__headline-right">
-            <p>9.03.22</p>
-            <p>15:20</p>
+          </div>
+
+          <div class="blog__block">
+            <h3>На что ставить в чемпионате Казахстана по футболу?</h3>
+
+            <img src="./images/blog.png" alt="image-blog" />
+
+            <div class="blog__headline">
+              <div class="blog__headline-left">
+                <img src="./images/photo.png" alt="photo-blog" />
+                <p>Блог Сергея Цаплина</p>
+              </div>
+              <div class="blog__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="blog__block">
-        <h3>На что ставить в чемпионате Казахстана по футболу?</h3>
+      <div class="feedback">
+        <div class="headlineBlocks__wrapper">
+          <h3 class="feedback__headline">Напишите, если у вас есть вопросы</h3>
 
-        <img src="./images/blog.png" alt="image-blog">
-
-        <div class="blog__headline">
-          <div class="blog__headline-left">
-            <img src="./images/photo.png" alt="photo-blog">
-            <p>Блог Сергея Цаплина</p>
-          </div>
-          <div class="blog__headline-right">
-            <p>9.03.22</p>
-            <p>15:20</p>
-          </div>
-        </div>
-      </div>
-     
-    </div>
-    </div>
-
-    <div class="feedback">
-      <div class="headlineBlocks__wrapper">
-        <h3 class="feedback__headline">Напишите, если у вас есть вопросы</h3>
-
-        <form class="feedback__form">
-          <div class="form__field">
-            <input placeholder="Ваше имя" type="text" name="name"
-            pattern="^[А-Яа-яЁё\s]+$"
-            minlength="1"          
-            >
-            <span class="form__error">Введите имя</span>
-          </div>
+          <form class="feedback__form">
+            <div class="form__field">
+              <input
+                placeholder="Ваше имя"
+                type="text"
+                name="name"
+                pattern="^[А-Яа-яЁё\s]+$"
+                minlength="1"
+              />
+              <span class="form__error">Введите имя</span>
+            </div>
 
             <div class="form__field">
-              <input placeholder="Email" type="email" name="name">
-              <span class="form__error">Это поле должно содержать E-Mail в формате example@site.com</span>
-            
-          </div>
-          
-          <div class="form__field">
-            <input placeholder="Ваше сообщение" type="text" name="text"
-            pattern="^[А-Яа-яЁё\s0-9]+$"
-            minlength="1" 
-            >
-            <span class="form__error">Введите сообщение</span>
-          </div>
-          
-          <div class="feedback__form-checkbox">
-            <input type="checkbox"> 
-            <span>Даю согласие на <a href="/">обработку персональных данных</a></span>
-          </div>
-          <button class="button160 mt15" type="submit">Отправить</button>
-        </form>
+              <input placeholder="Email" type="email" name="name" />
+              <span class="form__error"
+                >Это поле должно содержать E-Mail в формате
+                example@site.com</span
+              >
+            </div>
+
+            <div class="form__field">
+              <input
+                placeholder="Ваше сообщение"
+                type="text"
+                name="text"
+                pattern="^[А-Яа-яЁё\s0-9]+$"
+                minlength="1"
+              />
+              <span class="form__error">Введите сообщение</span>
+            </div>
+
+            <div class="feedback__form-checkbox">
+              <input type="checkbox" />
+              <span
+                >Даю согласие на
+                <a href="/">обработку персональных данных</a></span
+              >
+            </div>
+            <button class="button160 mt15" type="submit">Отправить</button>
+          </form>
+        </div>
       </div>
     </div>
-
     <footer class="footer">
       <div class="footer__headline">
-        <img src="./images/logo-footer.png">
+        <img src="./images/logo-footer.png" />
 
         <select class="footer__headline-change-lang">
           <option value="ru" selected>Ru</option>
           <option value="uzb">Uzb</option>
         </select>
-
-        
       </div>
 
       <div class="footer__main">
@@ -682,13 +779,12 @@
               <li><a href="/">На завтра</a></li>
               <li><a href="/">Завершенные прогнозы</a></li>
               <li><a href="/">Все прогнозы</a></li>
-          </ul>
-          
+            </ul>
           </div>
 
           <div>
             <h6 class="footer__main-hedline margin0">Бонусы</h6>
-              <ul class="footer__main-list">
+            <ul class="footer__main-list">
               <li><a href="/">Все бонусы</a></li>
               <li><a href="/">Для новых игроков</a></li>
               <li><a href="/">Бонусы на депозит</a></li>
@@ -709,7 +805,7 @@
               <li><a href="/">Матчи сегодня</a></li>
               <li><a href="/">Матчи завтра</a></li>
               <li><a href="/">Все матчи</a></li>
-          </ul>
+            </ul>
           </div>
 
           <div>
@@ -728,16 +824,13 @@
             <h6 class="footer__main-hedline">Политика конфиденциальности</h6>
           </div>
         </div>
-
-     
       </div>
-      <p>При использовании материалов сайта на других ресурсах активная ссылка на сайт обязательна.</p>
-
-
+      <p>
+        При использовании материалов сайта на других ресурсах активная ссылка на
+        сайт обязательна.
+      </p>
     </footer>
-  
   </body>
-    <script src="./swiper-bundle.js"></script>
-    <script src="./script.js"></script>
-
+  <script src="./swiper-bundle.js"></script>
+  <script src="./script.js"></script>
 </html>

@@ -19,9 +19,15 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 12px;
   color: #5c5c5c;
+}
+
+@media screen and (max-width: 1024px) {
+  .bonus2 > p {
+    font-size: 10px;
+  }
 }
 
 .bonus3 > p {
@@ -41,28 +47,46 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 17px;
   color: #272727;
   margin: 0px 0px 10px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .bonusGet__block > h5 {
+    font-size: 14px;
+  }
 }
 
 .bonusGet__block > p {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 130%;
   color: #272727;
+}
+
+@media screen and (max-width: 1024px) {
+  .bonusGet__block > p {
+    font-size: 12px;
+  }
 }
 
 .bonusGet__block > ul > li {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 130%;
   color: #272727;
+}
+
+@media screen and (max-width: 1024px) {
+  .bonusGet__block > ul > li {
+    font-size: 12px;
+  }
 }
 
 .bonusGet__block > ul > li::marker {

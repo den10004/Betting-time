@@ -33,8 +33,14 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 28px;
   color: #272727;
-  margin: 5px 0px 5px 0px;
+  margin: 15px 0px 15px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .headlineBlocks__wrapper-cards > h3 {
+    font-size: 14px;
+    margin: 5px 0px 5px 0px;
+  }
 }

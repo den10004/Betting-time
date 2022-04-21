@@ -61,9 +61,15 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 130%;
   color: #272727;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards__paragraph {
+    font-size: 12px;
+  }
 }
 
 .cards {

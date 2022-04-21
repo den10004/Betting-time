@@ -1,0 +1,46 @@
+.tables {
+  margin: 0 auto;
+  position: relative;
+}
+
+.tables > p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  color: #009efd;
+}
+
+.datasheet {
+  width: 281px;
+  height: 131px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.square {
+  width: 49px;
+  height: 48px;
+  background: #c4c4c4;
+  border-radius: 5px;
+}
+
+.tables__block-tab {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.tables__block-tab-text {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  width: 80%;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  color: #272727;
+}

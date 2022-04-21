@@ -6,10 +6,16 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 130%;
   color: #272727;
   margin: 20px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .headlineBlocks__wrapper > h4 {
+    font-size: 14px;
+  }
 }
 
 .today__table {
@@ -95,7 +101,13 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 130%;
   color: #272727;
+}
+
+@media screen and (max-width: 1024px) {
+  .today__paragraph {
+    font-size: 12px;
+  }
 }

@@ -6,11 +6,17 @@
   font-family: "Gilroy";
   font-style: bold;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 17px;
   color: #272727;
   margin-top: 20px;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog__block > h3 {
+    font-size: 14px;
+  }
 }
 
 .blog__block > img {
@@ -25,19 +31,31 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 12px;
   color: #5c5c5c;
   display: flex;
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1024px) {
+  .blog__headline {
+    font-size: 10px;
+  }
+}
+
 .blog__headline-left {
   display: flex;
   justify-content: space-between;
-  width: 150px;
+  width: 200px;
   align-items: center;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog__headline-left {
+    width: 150px;
+  }
 }
 
 .blog__headline-left > p {

@@ -8,10 +8,16 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 12px;
   color: #5c5c5c;
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .share > h5 {
+    font-size: 10px;
+  }
 }
 
 .share__icons {
@@ -26,6 +32,10 @@
   margin-left: 20px;
 }
 
-.share__icons > a > img {
-  cursor: pointer;
+.icon > path:hover {
+  fill: #009efd;
+}
+
+.icon > rect:hover {
+  fill: #009efd;
 }

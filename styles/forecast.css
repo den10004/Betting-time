@@ -72,11 +72,17 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 12px;
   color: #5c5c5c;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .forecast__headline {
+    font-size: 10px;
+  }
 }
 
 .banner__wrapper > button:active {
@@ -86,7 +92,13 @@
 .forecast__headline-left {
   display: flex;
   justify-content: space-between;
-  width: 200px;
+  width: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+  .forecast__headline-left {
+    width: 200px;
+  }
 }
 
 .forecast__headline-left > p {
@@ -113,9 +125,15 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 26px;
   line-height: 120%;
   color: #272727;
+}
+
+@media screen and (max-width: 1024px) {
+  .forecast__match > h4 {
+    font-size: 18px;
+  }
 }
 
 .forecast__match > p {
@@ -142,10 +160,16 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 130%;
   color: #272727;
   text-align: start;
+}
+
+@media screen and (max-width: 1024px) {
+  .forecast__match-block > p {
+    font-size: 12px;
+  }
 }
 
 progress {

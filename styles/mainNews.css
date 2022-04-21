@@ -6,18 +6,30 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 12px;
   color: #5c5c5c;
+}
+
+@media screen and (max-width: 1024px) {
+  .mainNews > span {
+    font-size: 10px;
+  }
 }
 
 .mainNews > h2 {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 26px;
   line-height: 22px;
   color: #272727;
+}
+
+@media screen and (max-width: 1024px) {
+  .mainNews > h2 {
+    font-size: 18px;
+  }
 }
 
 .mainNews > img {
@@ -37,7 +49,13 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 130%;
   color: #272727;
+}
+
+@media screen and (max-width: 1024px) {
+  .mainNews > p {
+    font-size: 12px;
+  }
 }

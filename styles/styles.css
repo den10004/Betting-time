@@ -23,6 +23,7 @@
 @import "./mainNews.css";
 @import "./match-center.css";
 @import "./blogs.css";
+@import "./tables.css";
 @import "./footer.css";
 
 @import "./swiper-bundle.css";
@@ -178,6 +179,11 @@ body {
   text-align: center;
   color: #009efd;
   cursor: pointer;
+}
+
+.buttonWhite:active {
+  background: #009efd;
+  color: white;
 }
 
 .feedback__text {
