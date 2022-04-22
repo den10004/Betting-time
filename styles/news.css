@@ -31,8 +31,14 @@
   width: 31px;
 }
 
-.news__headline-block > p {
+.news__headline-block > span {
   margin: 0;
+}
+
+.news__headline-block > button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
 }
 
 .news__headline-block > img {
