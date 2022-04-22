@@ -1,5 +1,4 @@
 .tables {
-  margin: 0 auto;
   position: relative;
 }
 
@@ -43,4 +42,28 @@
   font-size: 12px;
   line-height: 130%;
   color: #272727;
+}
+
+.figure {
+  display: flex;
+  width: 100px;
+  margin-top: 90px;
+}
+
+.figure1 {
+  border-top: 3px solid #009efd;
+  border-right: 3px solid #009efd;
+  border-bottom: 3px solid #009efd;
+  border-left: none;
+  height: 170px;
+  width: 50%;
+}
+
+.figure2 {
+  height: 85px;
+  width: 50%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #009efd;
 }
