@@ -140,14 +140,14 @@
     <div class="swiper tabsForecast1 mt20">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <button class="expertNav__link-active expertNavSlider">
-            <a class="expertNav__link-active" href="/">Все прогнозы</a>
+          <button class="expertNav__link-deactive expertNavSlider">
+            <a class="expertNav__link-deactive" href="/">Все прогнозы</a>
           </button>
         </div>
 
         <div class="swiper-slide">
-          <button class="expertNav__link-deactive expertNavSlider">
-            <a class="expertNav__link-deactive" href="/">На сегодня</a>
+          <button class="expertNav__link-active expertNavSlider">
+            <a class="expertNav__link-active" href="/">На сегодня</a>
           </button>
         </div>
 
@@ -167,620 +167,714 @@
       </div>
     </div>
 
-    <div class="forecast">
-      <div class="headlineBlocks__wrapper">
-        <div class="mt30">
-          <div class="headlineBlocks__forecastPage">
-            <div class="headlineBlocks__forecastPage-left">
-              <img src="./images/football.png" />
-              <h4>Футбол</h4>
+    <div style="max-width: 1440px; margin: 0 auto">
+      <div class="forecast">
+        <div class="headlineBlocks__wrapper">
+          <div class="mt30">
+            <div class="headlineBlocks__forecastPage">
+              <div class="headlineBlocks__forecastPage-left">
+                <img src="./images/football.png" />
+                <h4>Футбол</h4>
+              </div>
+
+              <div class="buttons-none">
+                <button class="prev-forecast">
+                  <img src="./images/arrow1.png" />
+                </button>
+                <button class="next-forecast">
+                  <img src="./images/arrow.png" />
+                </button>
+              </div>
             </div>
 
-            <div>
-              <img src="./images/arrow1.png" />
-              <img src="./images/arrow.png" />
+            <div class="swiper forecastFootball mt20">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div style="width: 100%">
+                    <div class="forecast__image">
+                      <img src="./images/main.png" alt="bunner" />
+
+                      <div class="clock__label">
+                        <img src="./images/clock.png" />
+                        <span>Начало через 15:52</span>
+                      </div>
+
+                      <div class="forecast__wrapperBlock">
+                        <div class="forecast__icons">
+                          <img src="./images/dinamo-logo.png" />
+                          <img src="./images/fakel-logo.png" />
+                        </div>
+                        <div class="forecast__wrapperBlock2">
+                          <div class="forecast__image-border">
+                            <span>Цаплин</span>
+                          </div>
+
+                          <div
+                            class="forecast__image-border backgroundColor-white"
+                          >
+                            <img src="./images/f.png" />
+                            <span class="color">1.95</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="forecast__headline">
+                      <div class="forecast__headline-left">
+                        <p>Волейбол</p>
+                        <p>Суперлига</p>
+                        <p>Цаплин</p>
+                      </div>
+
+                      <div class="forecast__headline-right">
+                        <p>9.03.22</p>
+                        <p>15:20</p>
+                      </div>
+                    </div>
+
+                    <div class="forecast__match">
+                      <h4>Динамо-ЛО — Факел</h4>
+                      <div class="forecast__match-block">
+                        <img src="./images/photo.png" />
+                        <p>
+                          Прогноз и ставка от Сергея Цаплина:<br />Победа
+                          Динамо-ЛО с форой (-13,5)
+                        </p>
+                      </div>
+                      <progress value="63" max="100">80%</progress>
+                      <p>63% за</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div>
-            <div class="forecast__image">
-              <img src="./images/main.png" alt="bunner" />
-
-              <div class="clock__label">
-                <img src="./images/clock.png" />
-                <span>Начало через 15:52</span>
+          <div class="mt30">
+            <div class="headlineBlocks__forecastPage">
+              <div class="headlineBlocks__forecastPage-left">
+                <img src="./images/volleyball.png" />
+                <h4>Волейбол</h4>
               </div>
 
-              <div class="forecast__wrapperBlock">
-                <div class="forecast__icons">
-                  <img src="./images/dinamo-logo.png" />
-                  <img src="./images/fakel-logo.png" />
-                </div>
-                <div class="forecast__wrapperBlock2">
-                  <div class="forecast__image-border">
-                    <span>Цаплин</span>
-                  </div>
-
-                  <div class="forecast__image-border backgroundColor-white">
-                    <img src="./images/f.png" />
-                    <span class="color">1.95</span>
-                  </div>
-                </div>
+              <div class="buttons-none">
+                <button class="prev-forecastV">
+                  <img src="./images/arrow1.png" />
+                </button>
+                <button class="next-forecastV">
+                  <img src="./images/arrow.png" />
+                </button>
               </div>
             </div>
 
-            <div class="forecast__headline">
-              <div class="forecast__headline-left">
-                <p>Волейбол</p>
-                <p>Суперлига</p>
-                <p>Цаплин</p>
-              </div>
+            <div class="swiper forecastVolleyball mt20">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div style="width: 100%">
+                    <div class="forecast__image">
+                      <img src="./images/main.png" alt="bunner" />
 
-              <div class="forecast__headline-right">
-                <p>9.03.22</p>
-                <p>15:20</p>
-              </div>
-            </div>
+                      <div class="clock__label">
+                        <img src="./images/clock.png" />
+                        <span>Начало через 15:52</span>
+                      </div>
 
-            <div class="forecast__match">
-              <h4>Динамо-ЛО — Факел</h4>
-              <div class="forecast__match-block">
-                <img src="./images/photo.png" />
-                <p>
-                  Прогноз и ставка от Сергея Цаплина:<br />Победа Динамо-ЛО с
-                  форой (-13,5)
-                </p>
-              </div>
-              <progress value="63" max="100">80%</progress>
-              <p>63% за</p>
-            </div>
-          </div>
-        </div>
+                      <div class="forecast__wrapperBlock">
+                        <div class="forecast__icons">
+                          <img src="./images/dinamo-logo.png" />
+                          <img src="./images/fakel-logo.png" />
+                        </div>
+                        <div class="forecast__wrapperBlock2">
+                          <div class="forecast__image-border">
+                            <span>Цаплин</span>
+                          </div>
 
-        <div>
-          <div class="headlineBlocks__forecastPage">
-            <div class="headlineBlocks__forecastPage-left">
-              <img src="./images/volleyball.png" />
-              <h4>Волейбол</h4>
-            </div>
+                          <div
+                            class="forecast__image-border backgroundColor-white"
+                          >
+                            <img src="./images/f.png" />
+                            <span class="color">1.95</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-            <div class="mt30">
-              <img src="./images/arrow1.png" />
-              <img src="./images/arrow.png" />
-            </div>
-          </div>
+                    <div class="forecast__headline">
+                      <div class="forecast__headline-left">
+                        <p>Волейбол</p>
+                        <p>Суперлига</p>
+                        <p>Цаплин</p>
+                      </div>
 
-          <div>
-            <div class="forecast__image">
-              <img src="./images/main.png" alt="bunner" />
+                      <div class="forecast__headline-right">
+                        <p>9.03.22</p>
+                        <p>15:20</p>
+                      </div>
+                    </div>
 
-              <div class="clock__label">
-                <img src="./images/clock.png" />
-                <span>Начало через 15:52</span>
-              </div>
-
-              <div class="forecast__wrapperBlock">
-                <div class="forecast__icons">
-                  <img src="./images/dinamo-logo.png" />
-                  <img src="./images/fakel-logo.png" />
-                </div>
-                <div class="forecast__wrapperBlock2">
-                  <div class="forecast__image-border">
-                    <span>Цаплин</span>
-                  </div>
-
-                  <div class="forecast__image-border backgroundColor-white">
-                    <img src="./images/f.png" />
-                    <span class="color">1.95</span>
+                    <div class="forecast__match">
+                      <h4>Динамо-ЛО — Факел</h4>
+                      <div class="forecast__match-block">
+                        <img src="./images/photo.png" />
+                        <p>
+                          Прогноз и ставка от Сергея Цаплина:<br />Победа
+                          Динамо-ЛО с форой (-13,5)
+                        </p>
+                      </div>
+                      <progress value="63" max="100">80%</progress>
+                      <p>63% за</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="forecast__headline">
-              <div class="forecast__headline-left">
-                <p>Волейбол</p>
-                <p>Суперлига</p>
-                <p>Цаплин</p>
-              </div>
-
-              <div class="forecast__headline-right">
-                <p>9.03.22</p>
-                <p>15:20</p>
-              </div>
-            </div>
-
-            <div class="forecast__match">
-              <h4>Динамо-ЛО — Факел</h4>
-              <div class="forecast__match-block">
-                <img src="./images/photo.png" />
-                <p>
-                  Прогноз и ставка от Сергея Цаплина:<br />Победа Динамо-ЛО с
-                  форой (-13,5)
-                </p>
-              </div>
-              <progress value="63" max="100">80%</progress>
-              <p>63% за</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="mt30">
-          <div class="headlineBlocks__forecastPage">
-            <div class="headlineBlocks__forecastPage-left">
-              <img src="./images/tennisball.png" />
-              <h4>Теннис</h4>
-            </div>
-
-            <div>
-              <img src="./images/arrow1.png" />
-              <img src="./images/arrow.png" />
             </div>
           </div>
 
-          <div>
-            <div class="forecast__image">
-              <img src="./images/main.png" alt="bunner" />
-
-              <div class="clock__label">
-                <img src="./images/clock.png" />
-                <span>Начало через 15:52</span>
+          <div class="mt30">
+            <div class="headlineBlocks__forecastPage">
+              <div class="headlineBlocks__forecastPage-left">
+                <img src="./images/tennisball.png" />
+                <h4>Теннис</h4>
               </div>
 
-              <div class="forecast__wrapperBlock">
-                <div class="forecast__icons">
-                  <img src="./images/dinamo-logo.png" />
-                  <img src="./images/fakel-logo.png" />
-                </div>
-                <div class="forecast__wrapperBlock2">
-                  <div class="forecast__image-border">
-                    <span>Цаплин</span>
-                  </div>
-
-                  <div class="forecast__image-border backgroundColor-white">
-                    <img src="./images/f.png" />
-                    <span class="color">1.95</span>
-                  </div>
-                </div>
+              <div class="buttons-none">
+                <button class="prev-forecastT">
+                  <img src="./images/arrow1.png" />
+                </button>
+                <button class="next-forecastT">
+                  <img src="./images/arrow.png" />
+                </button>
               </div>
             </div>
 
-            <div class="forecast__headline">
-              <div class="forecast__headline-left">
-                <p>Волейбол</p>
-                <p>Суперлига</p>
-                <p>Цаплин</p>
-              </div>
+            <div class="swiper forecastTennis mt20">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div style="width: 100%">
+                    <div class="forecast__image">
+                      <img src="./images/main.png" alt="bunner" />
 
-              <div class="forecast__headline-right">
-                <p>9.03.22</p>
-                <p>15:20</p>
-              </div>
-            </div>
+                      <div class="clock__label">
+                        <img src="./images/clock.png" />
+                        <span>Начало через 15:52</span>
+                      </div>
 
-            <div class="forecast__match">
-              <h4>Динамо-ЛО — Факел</h4>
-              <div class="forecast__match-block">
-                <img src="./images/photo.png" />
-                <p>
-                  Прогноз и ставка от Сергея Цаплина:<br />Победа Динамо-ЛО с
-                  форой (-13,5)
-                </p>
-              </div>
-              <progress value="63" max="100">80%</progress>
-              <p>63% за</p>
-            </div>
-          </div>
-        </div>
+                      <div class="forecast__wrapperBlock">
+                        <div class="forecast__icons">
+                          <img src="./images/dinamo-logo.png" />
+                          <img src="./images/fakel-logo.png" />
+                        </div>
+                        <div class="forecast__wrapperBlock2">
+                          <div class="forecast__image-border">
+                            <span>Цаплин</span>
+                          </div>
 
-        <div class="mt30">
-          <div class="headlineBlocks__forecastPage">
-            <div class="headlineBlocks__forecastPage-left">
-              <img src="./images/hockey.png" />
-              <h4>Хоккей</h4>
-            </div>
+                          <div
+                            class="forecast__image-border backgroundColor-white"
+                          >
+                            <img src="./images/f.png" />
+                            <span class="color">1.95</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-            <div>
-              <img src="./images/arrow1.png" />
-              <img src="./images/arrow.png" />
-            </div>
-          </div>
+                    <div class="forecast__headline">
+                      <div class="forecast__headline-left">
+                        <p>Волейбол</p>
+                        <p>Суперлига</p>
+                        <p>Цаплин</p>
+                      </div>
 
-          <div>
-            <div class="forecast__image">
-              <img src="./images/main.png" alt="bunner" />
+                      <div class="forecast__headline-right">
+                        <p>9.03.22</p>
+                        <p>15:20</p>
+                      </div>
+                    </div>
 
-              <div class="clock__label">
-                <img src="./images/clock.png" />
-                <span>Начало через 15:52</span>
-              </div>
-
-              <div class="forecast__wrapperBlock">
-                <div class="forecast__icons">
-                  <img src="./images/dinamo-logo.png" />
-                  <img src="./images/fakel-logo.png" />
-                </div>
-                <div class="forecast__wrapperBlock2">
-                  <div class="forecast__image-border">
-                    <span>Цаплин</span>
-                  </div>
-
-                  <div class="forecast__image-border backgroundColor-white">
-                    <img src="./images/f.png" />
-                    <span class="color">1.95</span>
+                    <div class="forecast__match">
+                      <h4>Динамо-ЛО — Факел</h4>
+                      <div class="forecast__match-block">
+                        <img src="./images/photo.png" />
+                        <p>
+                          Прогноз и ставка от Сергея Цаплина:<br />Победа
+                          Динамо-ЛО с форой (-13,5)
+                        </p>
+                      </div>
+                      <progress value="63" max="100">80%</progress>
+                      <p>63% за</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="forecast__headline">
-              <div class="forecast__headline-left">
-                <p>Волейбол</p>
-                <p>Суперлига</p>
-                <p>Цаплин</p>
-              </div>
-
-              <div class="forecast__headline-right">
-                <p>9.03.22</p>
-                <p>15:20</p>
-              </div>
-            </div>
-
-            <div class="forecast__match">
-              <h4>Динамо-ЛО — Факел</h4>
-              <div class="forecast__match-block">
-                <img src="./images/photo.png" />
-                <p>
-                  Прогноз и ставка от Сергея Цаплина:<br />Победа Динамо-ЛО с
-                  форой (-13,5)
-                </p>
-              </div>
-              <progress value="63" max="100">80%</progress>
-              <p>63% за</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="mt30">
-          <div class="headlineBlocks__forecastPage">
-            <div class="headlineBlocks__forecastPage-left">
-              <img src="./images/basketball.png" />
-              <h4>Баскетбол</h4>
-            </div>
-
-            <div>
-              <img src="./images/arrow1.png" />
-              <img src="./images/arrow.png" />
             </div>
           </div>
 
-          <div>
-            <div class="forecast__image">
-              <img src="./images/main.png" alt="bunner" />
-
-              <div class="clock__label">
-                <img src="./images/clock.png" />
-                <span>Начало через 15:52</span>
+          <div class="mt30">
+            <div class="headlineBlocks__forecastPage">
+              <div class="headlineBlocks__forecastPage-left">
+                <img src="./images/hockey.png" />
+                <h4>Хоккей</h4>
               </div>
 
-              <div class="forecast__wrapperBlock">
-                <div class="forecast__icons">
-                  <img src="./images/dinamo-logo.png" />
-                  <img src="./images/fakel-logo.png" />
-                </div>
-                <div class="forecast__wrapperBlock2">
-                  <div class="forecast__image-border">
-                    <span>Цаплин</span>
-                  </div>
-
-                  <div class="forecast__image-border backgroundColor-white">
-                    <img src="./images/f.png" />
-                    <span class="color">1.95</span>
-                  </div>
-                </div>
+              <div class="buttons-none">
+                <button class="prev-forecastH">
+                  <img src="./images/arrow1.png" />
+                </button>
+                <button class="next-forecastH">
+                  <img src="./images/arrow.png" />
+                </button>
               </div>
             </div>
 
-            <div class="forecast__headline">
-              <div class="forecast__headline-left">
-                <p>Волейбол</p>
-                <p>Суперлига</p>
-                <p>Цаплин</p>
-              </div>
+            <div class="swiper forecastHockey mt20">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div style="width: 100%">
+                    <div class="forecast__image">
+                      <img src="./images/main.png" alt="bunner" />
 
-              <div class="forecast__headline-right">
-                <p>9.03.22</p>
-                <p>15:20</p>
-              </div>
-            </div>
+                      <div class="clock__label">
+                        <img src="./images/clock.png" />
+                        <span>Начало через 15:52</span>
+                      </div>
 
-            <div class="forecast__match">
-              <h4>Динамо-ЛО — Факел</h4>
-              <div class="forecast__match-block">
-                <img src="./images/photo.png" />
-                <p>
-                  Прогноз и ставка от Сергея Цаплина:<br />Победа Динамо-ЛО с
-                  форой (-13,5)
-                </p>
-              </div>
-              <progress value="63" max="100">80%</progress>
-              <p>63% за</p>
-            </div>
-          </div>
-        </div>
+                      <div class="forecast__wrapperBlock">
+                        <div class="forecast__icons">
+                          <img src="./images/dinamo-logo.png" />
+                          <img src="./images/fakel-logo.png" />
+                        </div>
+                        <div class="forecast__wrapperBlock2">
+                          <div class="forecast__image-border">
+                            <span>Цаплин</span>
+                          </div>
 
-        <div class="mt30">
-          <div class="headlineBlocks__forecastPage">
-            <div class="headlineBlocks__forecastPage-left">
-              <img src="./images/cyber.png" />
-              <h4>Киберспорт</h4>
-            </div>
+                          <div
+                            class="forecast__image-border backgroundColor-white"
+                          >
+                            <img src="./images/f.png" />
+                            <span class="color">1.95</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-            <div>
-              <img src="./images/arrow1.png" />
-              <img src="./images/arrow.png" />
-            </div>
-          </div>
+                    <div class="forecast__headline">
+                      <div class="forecast__headline-left">
+                        <p>Волейбол</p>
+                        <p>Суперлига</p>
+                        <p>Цаплин</p>
+                      </div>
 
-          <div>
-            <div class="forecast__image">
-              <img src="./images/main.png" alt="bunner" />
+                      <div class="forecast__headline-right">
+                        <p>9.03.22</p>
+                        <p>15:20</p>
+                      </div>
+                    </div>
 
-              <div class="clock__label">
-                <img src="./images/clock.png" />
-                <span>Начало через 15:52</span>
-              </div>
-
-              <div class="forecast__wrapperBlock">
-                <div class="forecast__icons">
-                  <img src="./images/dinamo-logo.png" />
-                  <img src="./images/fakel-logo.png" />
-                </div>
-                <div class="forecast__wrapperBlock2">
-                  <div class="forecast__image-border">
-                    <span>Цаплин</span>
-                  </div>
-
-                  <div class="forecast__image-border backgroundColor-white">
-                    <img src="./images/f.png" />
-                    <span class="color">1.95</span>
+                    <div class="forecast__match">
+                      <h4>Динамо-ЛО — Факел</h4>
+                      <div class="forecast__match-block">
+                        <img src="./images/photo.png" />
+                        <p>
+                          Прогноз и ставка от Сергея Цаплина:<br />Победа
+                          Динамо-ЛО с форой (-13,5)
+                        </p>
+                      </div>
+                      <progress value="63" max="100">80%</progress>
+                      <p>63% за</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="forecast__headline">
-              <div class="forecast__headline-left">
-                <p>Волейбол</p>
-                <p>Суперлига</p>
-                <p>Цаплин</p>
-              </div>
-
-              <div class="forecast__headline-right">
-                <p>9.03.22</p>
-                <p>15:20</p>
-              </div>
-            </div>
-
-            <div class="forecast__match">
-              <h4>Динамо-ЛО — Факел</h4>
-              <div class="forecast__match-block">
-                <img src="./images/photo.png" />
-                <p>
-                  Прогноз и ставка от Сергея Цаплина:<br />Победа Динамо-ЛО с
-                  форой (-13,5)
-                </p>
-              </div>
-              <progress value="63" max="100">80%</progress>
-              <p>63% за</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="mt30">
-          <div class="headlineBlocks__forecastPage">
-            <div class="headlineBlocks__forecastPage-left">
-              <img src="./images/other.png" />
-              <h4>Другие виды спорта</h4>
-            </div>
-
-            <div>
-              <img src="./images/arrow1.png" />
-              <img src="./images/arrow.png" />
             </div>
           </div>
 
-          <div>
-            <div class="forecast__image">
-              <img src="./images/main.png" alt="bunner" />
-
-              <div class="clock__label">
-                <img src="./images/clock.png" />
-                <span>Начало через 15:52</span>
+          <div class="mt30">
+            <div class="headlineBlocks__forecastPage">
+              <div class="headlineBlocks__forecastPage-left">
+                <img src="./images/basketball.png" />
+                <h4>Баскетбол</h4>
               </div>
 
-              <div class="forecast__wrapperBlock">
-                <div class="forecast__icons">
-                  <img src="./images/dinamo-logo.png" />
-                  <img src="./images/fakel-logo.png" />
-                </div>
-                <div class="forecast__wrapperBlock2">
-                  <div class="forecast__image-border">
-                    <span>Цаплин</span>
-                  </div>
+              <div class="buttons-none">
+                <button class="prev-forecastB">
+                  <img src="./images/arrow1.png" />
+                </button>
+                <button class="next-forecastB">
+                  <img src="./images/arrow.png" />
+                </button>
+              </div>
+            </div>
 
-                  <div class="forecast__image-border backgroundColor-white">
-                    <img src="./images/f.png" />
-                    <span class="color">1.95</span>
+            <div class="swiper forecastBascetBall mt20">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div style="width: 100%">
+                    <div class="forecast__image">
+                      <img src="./images/main.png" alt="bunner" />
+
+                      <div class="clock__label">
+                        <img src="./images/clock.png" />
+                        <span>Начало через 15:52</span>
+                      </div>
+
+                      <div class="forecast__wrapperBlock">
+                        <div class="forecast__icons">
+                          <img src="./images/dinamo-logo.png" />
+                          <img src="./images/fakel-logo.png" />
+                        </div>
+                        <div class="forecast__wrapperBlock2">
+                          <div class="forecast__image-border">
+                            <span>Цаплин</span>
+                          </div>
+
+                          <div
+                            class="forecast__image-border backgroundColor-white"
+                          >
+                            <img src="./images/f.png" />
+                            <span class="color">1.95</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="forecast__headline">
+                      <div class="forecast__headline-left">
+                        <p>Волейбол</p>
+                        <p>Суперлига</p>
+                        <p>Цаплин</p>
+                      </div>
+
+                      <div class="forecast__headline-right">
+                        <p>9.03.22</p>
+                        <p>15:20</p>
+                      </div>
+                    </div>
+
+                    <div class="forecast__match">
+                      <h4>Динамо-ЛО — Факел</h4>
+                      <div class="forecast__match-block">
+                        <img src="./images/photo.png" />
+                        <p>
+                          Прогноз и ставка от Сергея Цаплина:<br />Победа
+                          Динамо-ЛО с форой (-13,5)
+                        </p>
+                      </div>
+                      <progress value="63" max="100">80%</progress>
+                      <p>63% за</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="forecast__headline">
-              <div class="forecast__headline-left">
-                <p>Волейбол</p>
-                <p>Суперлига</p>
-                <p>Цаплин</p>
+          <div class="mt30">
+            <div class="headlineBlocks__forecastPage">
+              <div class="headlineBlocks__forecastPage-left">
+                <img src="./images/cyber.png" />
+                <h4>Киберспорт</h4>
               </div>
 
-              <div class="forecast__headline-right">
-                <p>9.03.22</p>
-                <p>15:20</p>
+              <div class="buttons-none">
+                <button class="prev-forecastC">
+                  <img src="./images/arrow1.png" />
+                </button>
+                <button class="next-forecastC">
+                  <img src="./images/arrow.png" />
+                </button>
               </div>
             </div>
 
-            <div class="forecast__match">
-              <h4>Динамо-ЛО — Факел</h4>
-              <div class="forecast__match-block">
-                <img src="./images/photo.png" />
-                <p>
-                  Прогноз и ставка от Сергея Цаплина:<br />Победа Динамо-ЛО с
-                  форой (-13,5)
-                </p>
+            <div class="swiper forecastCyber mt20">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div style="width: 100%">
+                    <div class="forecast__image">
+                      <img src="./images/main.png" alt="bunner" />
+
+                      <div class="clock__label">
+                        <img src="./images/clock.png" />
+                        <span>Начало через 15:52</span>
+                      </div>
+
+                      <div class="forecast__wrapperBlock">
+                        <div class="forecast__icons">
+                          <img src="./images/dinamo-logo.png" />
+                          <img src="./images/fakel-logo.png" />
+                        </div>
+                        <div class="forecast__wrapperBlock2">
+                          <div class="forecast__image-border">
+                            <span>Цаплин</span>
+                          </div>
+
+                          <div
+                            class="forecast__image-border backgroundColor-white"
+                          >
+                            <img src="./images/f.png" />
+                            <span class="color">1.95</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="forecast__headline">
+                      <div class="forecast__headline-left">
+                        <p>Волейбол</p>
+                        <p>Суперлига</p>
+                        <p>Цаплин</p>
+                      </div>
+
+                      <div class="forecast__headline-right">
+                        <p>9.03.22</p>
+                        <p>15:20</p>
+                      </div>
+                    </div>
+
+                    <div class="forecast__match">
+                      <h4>Динамо-ЛО — Факел</h4>
+                      <div class="forecast__match-block">
+                        <img src="./images/photo.png" />
+                        <p>
+                          Прогноз и ставка от Сергея Цаплина:<br />Победа
+                          Динамо-ЛО с форой (-13,5)
+                        </p>
+                      </div>
+                      <progress value="63" max="100">80%</progress>
+                      <p>63% за</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <progress value="63" max="100">80%</progress>
-              <p>63% за</p>
+            </div>
+          </div>
+
+          <div class="mt30">
+            <div class="headlineBlocks__forecastPage">
+              <div class="headlineBlocks__forecastPage-left">
+                <img src="./images/other.png" />
+                <h4>Другие виды спорта</h4>
+              </div>
+
+              <div class="buttons-none">
+                <button class="prev-forecastO">
+                  <img src="./images/arrow1.png" />
+                </button>
+                <button class="next-forecastO">
+                  <img src="./images/arrow.png" />
+                </button>
+              </div>
+            </div>
+
+            <div class="swiper forecastOther mt20">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div style="width: 100%">
+                    <div class="forecast__image">
+                      <img src="./images/main.png" alt="bunner" />
+
+                      <div class="clock__label">
+                        <img src="./images/clock.png" />
+                        <span>Начало через 15:52</span>
+                      </div>
+
+                      <div class="forecast__wrapperBlock">
+                        <div class="forecast__icons">
+                          <img src="./images/dinamo-logo.png" />
+                          <img src="./images/fakel-logo.png" />
+                        </div>
+                        <div class="forecast__wrapperBlock2">
+                          <div class="forecast__image-border">
+                            <span>Цаплин</span>
+                          </div>
+
+                          <div
+                            class="forecast__image-border backgroundColor-white"
+                          >
+                            <img src="./images/f.png" />
+                            <span class="color">1.95</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="forecast__headline">
+                      <div class="forecast__headline-left">
+                        <p>Волейбол</p>
+                        <p>Суперлига</p>
+                        <p>Цаплин</p>
+                      </div>
+
+                      <div class="forecast__headline-right">
+                        <p>9.03.22</p>
+                        <p>15:20</p>
+                      </div>
+                    </div>
+
+                    <div class="forecast__match">
+                      <h4>Динамо-ЛО — Факел</h4>
+                      <div class="forecast__match-block">
+                        <img src="./images/photo.png" />
+                        <p>
+                          Прогноз и ставка от Сергея Цаплина:<br />Победа
+                          Динамо-ЛО с форой (-13,5)
+                        </p>
+                      </div>
+                      <progress value="63" max="100">80%</progress>
+                      <p>63% за</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="mt30">
+      <hr class="newsHr" />
 
-    <div class="news">
-      <div class="headlineBlocks__wrapper">
-        <div class="headlineBlocks__headline">
-          <h4>Новости</h4>
-          <a href="#">Смотреть новости:</a>
+    </div>
+    <div class="mt30">
+    <div style="max-width: 1440px; margin: 0 auto">
+      <div class="news">
+        <div class="headlineBlocks__wrapper">
+          <h4 class="news__allnews">Смотреть все новости:</h4>
+
+          <div class="headlineBlocks__wrapper-cards">
+            <div class="forecast__headline">
+              <div class="forecast__headline-left">
+                <p>Футбол</p>
+                <p>Галатасарай</p>
+                <p>Барселона</p>
+                <p>...</p>
+              </div>
+
+              <div class="forecast__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
+            </div>
+
+            <h3 class="">
+              Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с
+              «Галатасараем»
+            </h3>
+
+            <div class="news__headline">
+              <div class="news__headline-block">
+                <span>54</span>
+                <button><img src="./images/like.png" alt="like" /></button>
+              </div>
+              <div class="news__headline-block">
+                <span>5</span>
+                <button>
+                  <img src="./images/dislike.png" alt="dislike" />
+                </button>
+              </div>
+              <div class="news__headline-block">
+                <span>2</span>
+                <button><img src="./images/repost.png" alt="repost" /></button>
+              </div>
+              <div class="news__headline-block">
+                <span>500</span>
+                <button><img src="./images/views.png" alt="views" /></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="headlineBlocks__wrapper-cards">
+            <div class="forecast__headline">
+              <div class="forecast__headline-left">
+                <p>Футбол</p>
+                <p>Галатасарай</p>
+                <p>Барселона</p>
+                <p>...</p>
+              </div>
+
+              <div class="forecast__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
+            </div>
+
+            <h3>
+              Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с
+              «Галатасараем»
+            </h3>
+
+            <div class="news__headline">
+              <div class="news__headline-block">
+                <span>54</span>
+                <button><img src="./images/like.png" alt="like" /></button>
+              </div>
+              <div class="news__headline-block">
+                <span>5</span>
+                <button>
+                  <img src="./images/dislike.png" alt="dislike" />
+                </button>
+              </div>
+              <div class="news__headline-block">
+                <span>2</span>
+                <button><img src="./images/repost.png" alt="repost" /></button>
+              </div>
+              <div class="news__headline-block">
+                <span>500</span>
+                <button><img src="./images/views.png" alt="views" /></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="headlineBlocks__wrapper-cards">
+            <div class="forecast__headline">
+              <div class="forecast__headline-left">
+                <p>Футбол</p>
+                <p>Галатасарай</p>
+                <p>Барселона</p>
+                <p>...</p>
+              </div>
+
+              <div class="forecast__headline-right">
+                <p>9.03.22</p>
+                <p>15:20</p>
+              </div>
+            </div>
+
+            <h3>
+              Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с
+              «Галатасараем»
+            </h3>
+
+            <div class="news__headline">
+              <div class="news__headline-block">
+                <span>54</span>
+                <button><img src="./images/like.png" alt="like" /></button>
+              </div>
+              <div class="news__headline-block">
+                <span>5</span>
+                <button>
+                  <img src="./images/dislike.png" alt="dislike" />
+                </button>
+              </div>
+              <div class="news__headline-block">
+                <span>2</span>
+                <button><img src="./images/repost.png" alt="repost" /></button>
+              </div>
+              <div class="news__headline-block">
+                <span>500</span>
+                <button><img src="./images/views.png" alt="views" /></button>
+              </div>
+            </div>
+          </div>
+          <p class="news__forecast">
+            Бесплатные прогнозы на спорт от экспертов на ближайшие дни: с
+            аналитикой, статистикой и коэффициентами. Знакомьтесь с мнениями
+            спортивных аналитиков, но принимайте решения своей головой!
+          </p>
         </div>
-
-        <div class="headlineBlocks__wrapper-cards">
-          <div class="forecast__headline">
-            <div class="forecast__headline-left">
-              <p>Футбол</p>
-              <p>Галатасарай</p>
-              <p>Барселона</p>
-              <p>...</p>
-            </div>
-
-            <div class="forecast__headline-right">
-              <p>9.03.22</p>
-              <p>15:20</p>
-            </div>
-          </div>
-
-          <h3 class="">
-            Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с
-            «Галатасараем»
-          </h3>
-
-          <div class="news__headline">
-            <div class="news__headline-block">
-              <p>54</p>
-              <img src="./images/like.png" alt="like" />
-            </div>
-            <div class="news__headline-block">
-              <p>5</p>
-              <img src="./images/dislike.png" alt="dislike" />
-            </div>
-            <div class="news__headline-block">
-              <p>2</p>
-              <img src="./images/repost.png" alt="repost" />
-            </div>
-            <div class="news__headline-block">
-              <p>500</p>
-              <img src="./images/views.png" alt="views" />
-            </div>
-          </div>
-        </div>
-
-        <div class="headlineBlocks__wrapper-cards">
-          <div class="forecast__headline">
-            <div class="forecast__headline-left">
-              <p>Футбол</p>
-              <p>Галатасарай</p>
-              <p>Барселона</p>
-              <p>...</p>
-            </div>
-
-            <div class="forecast__headline-right">
-              <p>9.03.22</p>
-              <p>15:20</p>
-            </div>
-          </div>
-
-          <h3>
-            Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с
-            «Галатасараем»
-          </h3>
-
-          <div class="news__headline">
-            <div class="news__headline-block">
-              <p>54</p>
-              <img src="./images/like.png" alt="like" />
-            </div>
-            <div class="news__headline-block">
-              <p>5</p>
-              <img src="./images/dislike.png" alt="dislike" />
-            </div>
-            <div class="news__headline-block">
-              <p>2</p>
-              <img src="./images/repost.png" alt="repost" />
-            </div>
-            <div class="news__headline-block">
-              <p>500</p>
-              <img src="./images/views.png" alt="views" />
-            </div>
-          </div>
-        </div>
-
-        <div class="headlineBlocks__wrapper-cards">
-          <div class="forecast__headline">
-            <div class="forecast__headline-left">
-              <p>Футбол</p>
-              <p>Галатасарай</p>
-              <p>Барселона</p>
-              <p>...</p>
-            </div>
-
-            <div class="forecast__headline-right">
-              <p>9.03.22</p>
-              <p>15:20</p>
-            </div>
-          </div>
-
-          <h3>
-            Миранчук и Головин вышли на замену, «Барселона» сыграла вничью с
-            «Галатасараем»
-          </h3>
-
-          <div class="news__headline">
-            <div class="news__headline-block">
-              <p>54</p>
-              <img src="./images/like.png" alt="like" />
-            </div>
-            <div class="news__headline-block">
-              <p>5</p>
-              <img src="./images/dislike.png" alt="dislike" />
-            </div>
-            <div class="news__headline-block">
-              <p>2</p>
-              <img src="./images/repost.png" alt="repost" />
-            </div>
-            <div class="news__headline-block">
-              <p>500</p>
-              <img src="./images/views.png" alt="views" />
-            </div>
-          </div>
-        </div>
-        <p class="news__forecast">
-          Бесплатные прогнозы на спорт от экспертов на ближайшие дни: с
-          аналитикой, статистикой и коэффициентами. Знакомьтесь с мнениями
-          спортивных аналитиков, но принимайте решения своей головой!
-        </p>
       </div>
     </div>
-
     <footer class="footer">
       <div class="footer__headline">
         <img src="./images/logo-footer.png" />

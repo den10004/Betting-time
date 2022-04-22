@@ -60,13 +60,20 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
-
+/*
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   position: relative;
+}
+*/
+
+.buttons-none > button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 
 .mt30 {
@@ -259,4 +266,5 @@ body {
 
 .newsHr {
   color: #f4f4f4;
+  opacity: 0.3;
 }

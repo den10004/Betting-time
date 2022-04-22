@@ -87,6 +87,83 @@ var swiper = new Swiper(".tabsForecast1", {
   },
 });
 
+var swiper = new Swiper(".forecastFootball", {
+  loop: true,
+  slidesPerView: 1,
+  centeredSlides: true,
+  spaceBetween: 5,
+  navigation: {
+    nextEl: ".next-forecast",
+    prevEl: ".prev-forecast",
+  },
+});
+
+var swiper = new Swiper(".forecastVolleyball", {
+  loop: true,
+  slidesPerView: 1,
+  centeredSlides: true,
+  spaceBetween: 5,
+  navigation: {
+    nextEl: ".next-forecastV",
+    prevEl: ".prev-forecastV",
+  },
+});
+
+var swiper = new Swiper(".forecastTennis", {
+  loop: true,
+  slidesPerView: 1,
+  centeredSlides: true,
+  spaceBetween: 5,
+  navigation: {
+    nextEl: ".next-forecastT",
+    prevEl: ".prev-forecastT",
+  },
+});
+
+var swiper = new Swiper(".forecastHockey", {
+  loop: true,
+  slidesPerView: 1,
+  centeredSlides: true,
+  spaceBetween: 5,
+  navigation: {
+    nextEl: ".next-forecastH",
+    prevEl: ".prev-forecastH",
+  },
+});
+
+var swiper = new Swiper(".forecastBascetBall", {
+  loop: true,
+  slidesPerView: 1,
+  centeredSlides: true,
+  spaceBetween: 5,
+  navigation: {
+    nextEl: ".next-forecastB",
+    prevEl: ".prev-forecastB",
+  },
+});
+
+var swiper = new Swiper(".forecastCyber", {
+  loop: true,
+  slidesPerView: 1,
+  centeredSlides: true,
+  spaceBetween: 5,
+  navigation: {
+    nextEl: ".next-forecastC",
+    prevEl: ".prev-forecastC",
+  },
+});
+
+var swiper = new Swiper(".forecastOther", {
+  loop: true,
+  slidesPerView: 1,
+  centeredSlides: true,
+  spaceBetween: 5,
+  navigation: {
+    nextEl: ".next-forecastO",
+    prevEl: ".prev-forecastO",
+  },
+});
+
 const list = document.querySelectorAll(".list");
 
 function accordion(e) {
