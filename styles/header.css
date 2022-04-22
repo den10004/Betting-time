@@ -734,3 +734,13 @@ input[type="checkbox"]:checked ~ label + ul {
   padding: 10px 5px;
   opacity: 0.6;
 }
+
+.header__middle > h2 > a {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  color: #009efd;
+  text-decoration: none;
+}

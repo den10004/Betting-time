@@ -12,13 +12,86 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__right">
+      <div class="max">
+        <div class="header__right">
+          <label class="label">
+            <a href="./index.html"
+              ><img src="./images/logo.png" alt="logo"
+            /></a>
+          </label>
+        </div>
+
+        <div class="header__middle">
+          <ul class="menu">
+            <li class="list">
+              <a href="#">Прогнозы</a>
+
+              <ul class="items">
+                <li><a href="./forecast.html">Все прогнозы</a></li>
+                <li><a href="./forecast.html">На сегодня</a></li>
+                <li><a href="./forecast.html">На завтра</a></li>
+                <li><a href="./forecast.html">Завершенные прогнозы</a></li>
+              </ul>
+            </li>
+            <li class="list">
+              <a href="#">Матч-центр</a>
+              <ul class="items">
+                <li><a href="./match-center.html">Все матчи</a></li>
+                <li><a href="./match-center.html">матчи сегодня</a></li>
+                <li><a href="./match-center.html">матчи завтра</a></li>
+              </ul>
+            </li>
+            <li class="list">
+              <a href="#">Бонусы</a>
+              <ul class="items">
+                <li><a href="/bonus.html">Все бонусы</a></li>
+                <li><a href="/bonus.html">Для новых игроков</a></li>
+                <li><a href="/bonus.html">Бонусы на депозит</a></li>
+                <li><a href="/bonus.html">Фрибеты</a></li>
+                <li><a href="/bonus.html">Страховые ставки</a></li>
+                <li><a href="/bonus.html">Кеш-бонус</a></li>
+                <li><a href="/bonus.html">Повышенные коэфициенты</a></li>
+                <li><a href="/bonus.html">Приз</a></li>
+                <li><a href="/bonus.html">Конкурсы</a></li>
+              </ul>
+            </li>
+          </ul>
+          <h2><a href="./expertMain.html">Эксперты</a></h2>
+
+          <ul class="menu">
+            <li class="link">
+              <a href="#">Новости</a>
+            </li>
+
+            <li class="link">
+              <a href="#">Блоги</a>
+            </li>
+
+            <li class="list">
+              <a href="#">О нас</a>
+              <ul class="items">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Политика сайта</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__left">
+          <select class="change-lang">
+            <option value="ru" selected>Ru</option>
+            <option value="uzb">Uzb</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="min">
         <nav>
           <input type="checkbox" name="menu" id="btn-menu" />
-          <label for="btn-menu" class="images">
+          <label for="btn-menu" class="header-btn">
             <img src="./images/header-button.png" alt="header-button" />
-            <img src="./images/logo.png" alt="logo"
-          /></label>
+            <img src="./images/logo.png" alt="logo" />
+          </label>
 
           <ul class="acor-container">
             <input type="checkbox" name="chacor" id="chacor1" />
@@ -63,7 +136,6 @@
               <a href="./news.html">Новости</a>
               <a href="./blogs.html">Блоги</a>
             </div>
-
             <input type="checkbox" name="chacor" id="chacor4" />
             <label for="chacor4">О нас</label>
             <div class="acor-body">
@@ -74,14 +146,13 @@
             </div>
           </ul>
         </nav>
-      </div>
 
-      <h1>Эксперты</h1>
-      <div class="header__left">
-        <select class="change-lang">
-          <option value="ru" selected>Ru</option>
-          <option value="uzb">Uzb</option>
-        </select>
+        <div class="header__left">
+          <select class="change-lang">
+            <option value="ru" selected>Ru</option>
+            <option value="uzb">Uzb</option>
+          </select>
+        </div>
       </div>
     </header>
 
