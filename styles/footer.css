@@ -102,3 +102,15 @@ select:focus {
     font-size: 10px;
   }
 }
+
+.footer__right-list > a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #5c5c5c;
+  margin-top: 20px;
+}
