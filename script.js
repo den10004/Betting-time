@@ -2,16 +2,19 @@ var swiper = new Swiper(".bonusSwiper", {
   loop: true,
   slidesPerView: "auto",
   centeredSlides: false,
-  spaceBetween: 20,
+  spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-bonus",
   },
   breakpoints: {
-    320: {
-      slidesPerView: 1.5,
+    425: {
+      slidesPerView: 1,
     },
 
     768: {
+      slidesPerView: 2.5,
+    },
+    1024: {
       slidesPerView: 3,
     },
   },

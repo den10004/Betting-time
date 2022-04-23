@@ -268,3 +268,36 @@ body {
   color: #f4f4f4;
   opacity: 0.3;
 }
+
+.headline {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272727;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0 0 0;
+  background: white;
+}
+
+.container > .block {
+  width: 48%;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container > .block {
+    width: 100%;
+  }
+}
