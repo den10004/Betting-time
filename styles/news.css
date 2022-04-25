@@ -12,7 +12,6 @@
 }
 
 .news__headline {
-  margin-top: 17px;
   width: 184px;
   font-family: "Gilroy";
   font-style: normal;
@@ -54,4 +53,22 @@
   font-size: 12px;
   line-height: 130%;
   color: #272727;
+}
+
+.news__wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.news__wrapper-block {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .news__wrapper {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
 }

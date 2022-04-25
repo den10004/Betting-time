@@ -42,7 +42,7 @@ body {
   width: 100%;
   height: 100%;
 }
-
+/*
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -59,16 +59,7 @@ body {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-}
-/*
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-}
-*/
+}*/
 
 .buttons-none > button {
   border: none;
@@ -218,12 +209,13 @@ body {
 .clock__label {
   position: absolute;
   display: flex;
-  width: 156px;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  width: 130px;
   height: 22px;
   background: #009efd;
   border-radius: 5px;
   color: white;
-  padding-left: 10px;
   box-sizing: border-box;
   align-items: center;
   top: 5px;
@@ -242,7 +234,6 @@ body {
   font-size: 10px;
   line-height: 12px;
   color: #ffffff;
-  margin-left: 10px;
 }
 
 /******Forecast button slider*******/
@@ -276,28 +267,4 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #272727;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 20px 0 0 0;
-  background: white;
-}
-
-.container > .block {
-  width: 48%;
-}
-
-@media screen and (max-width: 767px) {
-  .container {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .container > .block {
-    width: 100%;
-  }
 }

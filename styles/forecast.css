@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 1024px) {
   .forecast__headline-left {
-    width: 200px;
+    width: 170px;
   }
 }
 
@@ -113,6 +113,12 @@
   display: flex;
   justify-content: space-between;
   width: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .forecast__headline-right {
+    width: 60px;
+  }
 }
 
 .forecast__match {
@@ -181,12 +187,23 @@ progress {
   margin-top: 5px;
   border-radius: 5px;
   height: 2px;
+  background-color: #f4f4f4;
 }
 progress::-webkit-progress-bar {
   border-radius: 5px;
-  background-color: white;
+  background-color: #f4f4f4;
 }
+
+progress::-moz-progress-bar {
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+
 progress::-webkit-progress-value {
+  border-radius: 5px;
+  background-color: #1daf38;
+}
+progress::-moz-progress-value {
   border-radius: 5px;
   background-color: #1daf38;
 }

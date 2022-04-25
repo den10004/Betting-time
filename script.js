@@ -30,6 +30,9 @@ var swiper = new Swiper(".expertsSwiper", {
   },
   breakpoints: {
     320: {
+      slidesPerView: 3,
+    },
+    375: {
       slidesPerView: 3.5,
     },
     768: {
@@ -73,19 +76,16 @@ var swiper = new Swiper(".tabsForecast1", {
   },
   breakpoints: {
     320: {
-      slidesPerView: 2.5,
+      slidesPerView: 3,
     },
     375: {
-      slidesPerView: 2.5,
-    },
-    425: {
-      slidesPerView: 3,
+      slidesPerView: 3.5,
     },
     768: {
       slidesPerView: 4,
     },
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3.5,
     },
   },
 });

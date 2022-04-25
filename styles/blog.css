@@ -26,7 +26,7 @@
 }
 
 .blog__headline {
-  margin-top: 17px;
+  margin-top: 5px;
   width: 100%;
   font-family: "Gilroy";
   font-style: normal;
@@ -69,7 +69,13 @@
 .blog__headline-right {
   display: flex;
   justify-content: space-between;
-  width: 65px;
+  width: 80px;
   align-items: center;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog__headline-right {
+    width: 60px;
+  }
 }
