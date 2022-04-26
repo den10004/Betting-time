@@ -2,7 +2,7 @@
   margin: 30px auto 0;
 }
 
-.blog__block > h3 {
+.blog__heading {
   font-family: "Gilroy";
   font-style: bold;
   font-weight: 700;
@@ -14,12 +14,12 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .blog__block > h3 {
+  .blog__heading {
     font-size: 14px;
   }
 }
 
-.blog__block > img {
+.blog__img {
   margin-top: 10px;
   width: 100%;
   border-radius: 5px;

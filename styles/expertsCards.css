@@ -64,11 +64,24 @@
   font-size: 18px;
   line-height: 130%;
   color: #272727;
+  padding-left: 30px;
 }
 
 @media screen and (max-width: 1024px) {
   .cards__paragraph {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards__paragraph {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cards__paragraph {
+    padding-left: 10px;
   }
 }
 

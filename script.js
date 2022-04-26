@@ -70,7 +70,7 @@ var swiper = new Swiper(".tabsForecast1", {
   loop: true,
   slidesPerView: "auto",
   centeredSlides: false,
-  spaceBetween: 5,
+  spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-expert",
   },
