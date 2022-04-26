@@ -2,6 +2,10 @@
   margin-top: 20px;
 }
 
+.card {
+  width: auto;
+}
+
 /*
 .expertNav__link > button {
   height: 30px;
