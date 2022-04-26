@@ -230,7 +230,6 @@ body {
 
 .clock__label > img {
   width: 12px;
-  height: 12px;
 }
 
 .clock__label > span {
@@ -238,7 +237,6 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
-  line-height: 12px;
   color: #ffffff;
 }
 

@@ -1,21 +1,28 @@
 var swiper = new Swiper(".bonusSwiper", {
   loop: true,
-  slidesPerView: "auto",
   centeredSlides: false,
-  spaceBetween: 10,
+
   navigation: {
     nextEl: ".swiper-button-bonus",
   },
   breakpoints: {
-    425: {
+    320: {
       slidesPerView: 1,
     },
-
+    375: {
+      slidesPerView: 1.2,
+    },
+    425: {
+      slidesPerView: 1.4,
+    },
     768: {
       slidesPerView: 2.5,
     },
     1024: {
       slidesPerView: 3,
+    },
+    1280: {
+      slidesPerView: 4,
     },
   },
 });
