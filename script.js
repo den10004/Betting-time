@@ -67,23 +67,13 @@ var swiper = new Swiper(".expertsForecast", {
 });
 
 var swiper = new Swiper(".tabsForecast1", {
-  loop: true,
+  loop: false,
   slidesPerView: "auto",
   centeredSlides: false,
-  spaceBetween: 10,
+  spaceBetween: 5,
+
   navigation: {
     nextEl: ".swiper-button-expert",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 3,
-    },
-    375: {
-      slidesPerView: 3.5,
-    },
-    768: {
-      slidesPerView: 4,
-    },
   },
 });
 

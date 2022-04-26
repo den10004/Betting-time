@@ -1,19 +1,20 @@
-.navigation {
-  display: flex;
+.forecastSliderWrap {
+  width: 500px;
+  margin: 0 auto;
 }
 
-.btn {
+@media screen and (max-width: 375px) {
+  .forecastSliderWrap {
+    width: 300px;
+  }
+}
+
+.btnSlider {
   border-radius: 5px;
-  padding: 7px 10px 7px 10px;
+  padding: 0px 10px 0px 10px;
   align-items: center;
   border: none;
-  margin-right: 10px;
-}
-
-@media screen and (max-width: 374px) {
-  .btn {
-    padding: 0px 10px 0px 10px;
-  }
+  height: 30px;
 }
 
 .navigation__link-deactive > a {
@@ -24,6 +25,7 @@
   line-height: 130%;
   text-decoration: none;
   color: #5c5c5c;
+  white-space: nowrap;
 }
 
 .navigation__link-deactive {
