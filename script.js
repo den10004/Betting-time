@@ -84,9 +84,6 @@ var swiper = new Swiper(".tabsForecast1", {
     768: {
       slidesPerView: 4,
     },
-    1024: {
-      slidesPerView: 3.5,
-    },
   },
 });
 
