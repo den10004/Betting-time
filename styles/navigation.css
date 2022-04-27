@@ -1,5 +1,5 @@
 .forecastSliderWrap {
-  width: 500px;
+  width: 430px;
   margin: 0 auto;
 }
 
@@ -44,4 +44,11 @@
   font-size: 12px;
   line-height: 130%;
   text-decoration: none;
+}
+
+.navigation > button {
+  border: none;
+  padding: 7px 10px 7px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }

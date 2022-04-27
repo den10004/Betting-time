@@ -11,7 +11,13 @@
   display: flex;
   justify-content: space-between;
   max-width: 345px;
-  margin: 0 auto;
+  margin: 15px auto 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .matchCenter__block {
+    margin: 5px auto 0 auto;
+  }
 }
 
 .matchCenter__block-right {
