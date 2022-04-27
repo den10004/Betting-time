@@ -3,9 +3,9 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 520px) {
   .forecastSliderWrap {
-    width: 300px;
+    width: 95%;
   }
 }
 

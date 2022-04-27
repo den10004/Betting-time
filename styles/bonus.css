@@ -1,5 +1,11 @@
 .bonus {
-  margin: 30px auto 0;
+  margin: 120px auto 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .bonus {
+    margin: 30px auto 0 auto;
+  }
 }
 
 .bonus > img {

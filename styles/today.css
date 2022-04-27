@@ -1,5 +1,11 @@
 .today {
-  margin: 30px auto 0;
+  margin: 120px auto 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .today {
+    margin: 30px auto 0 auto;
+  }
 }
 
 .headlineBlocks__wrapper > h4 {
@@ -66,6 +72,18 @@
 
 .today__table-hedline > p {
   margin: 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #272727;
+}
+
+@media screen and (max-width: 768px) {
+  .today__table-hedline > p {
+    font-size: 12px;
+  }
 }
 
 .today__table-hedline > div > p {

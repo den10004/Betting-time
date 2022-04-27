@@ -1,5 +1,11 @@
 .news {
-  margin: 30px auto 30px auto;
+  margin: 120px auto 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .news {
+    margin: 30px auto 0 auto;
+  }
 }
 
 .news > h3 {
@@ -56,19 +62,19 @@
 
 .news__wrapper {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
-  margin-top: 20px;
-}
-
-.news__wrapper-block {
-  width: 100%;
+  margin-top: 60px;
 }
 
 @media screen and (max-width: 768px) {
   .news__wrapper {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
+    margin-top: 20px;
   }
+}
+.news__wrapper-block {
+  width: 100%;
 }

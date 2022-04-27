@@ -1,6 +1,6 @@
 .dropDown {
   display: flex;
-  margin: 20px auto;
+  margin-top: 20px;
   width: 345px;
   position: relative;
 }

@@ -45,9 +45,11 @@ var swiper = new Swiper(".expertsSwiper", {
     768: {
       slidesPerView: 6,
     },
-
     1024: {
-      slidesPerView: 8,
+      slidesPerView: 5,
+    },
+    1280: {
+      slidesPerView: 6,
     },
   },
 });

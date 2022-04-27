@@ -1,5 +1,11 @@
 .experts {
-  margin: 30px auto 0;
+  margin: 120px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .experts {
+    margin: 30px auto 0;
+  }
 }
 
 .experts__slider {
@@ -9,7 +15,7 @@
 }
 
 .experts__slider-block {
-  width: 200px;
+  width: 158px;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,15 +24,25 @@
   }
 }
 
+.experts__slider-block > img {
+  width: 100%;
+}
+
 .experts__slider-block > p {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 14px;
   color: #272727;
   word-wrap: break-word;
   margin: 10px 0 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .experts__slider-block > p {
+    font-size: 12px;
+  }
 }
 
 .headlineBlocks__wrapper-cards > h3 {
@@ -38,7 +54,7 @@
   margin: 15px 0px 15px 0px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .headlineBlocks__wrapper-cards > h3 {
     font-size: 14px;
     margin: 5px 0px 5px 0px;

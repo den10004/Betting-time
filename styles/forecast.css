@@ -1,5 +1,11 @@
 .forecast {
-  margin: 25px auto 0;
+  margin: 120px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .forecast {
+    margin: 25px auto 0;
+  }
 }
 
 .forecast__image {
@@ -73,13 +79,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 12px;
   color: #5c5c5c;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .forecast__headline {
     font-size: 10px;
   }
@@ -89,33 +94,8 @@
   background: #009efd;
 }
 
-.forecast__headline-left {
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-}
-
-@media screen and (max-width: 1024px) {
-  .forecast__headline-left {
-    width: 170px;
-  }
-}
-
-.forecast__headline-left > p {
-  margin: 0;
-}
-
-.forecast__headline-right > p {
-  margin: 0;
-}
-
-.forecast__headline-right {
-  display: flex;
-  justify-content: space-between;
-}
-
 .forecast__match {
-  margin-top: 5px;
+  margin: 15px 0 15px 0px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -142,10 +122,16 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 130%;
   color: #272727;
   margin: 5px 0 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .forecast__match > p {
+    font-size: 12px;
+  }
 }
 
 .forecast__match-block {
