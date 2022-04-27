@@ -147,18 +147,37 @@
 
     <div style="max-width: 1440px; margin: 0 auto">
       <div class="headlineBlocks__wrapper">
-        <div class="dropDown">
-          <select class="dropDown__select">
-            <option>Все бонусы</option>
-            <option>Для новых игроков</option>
-            <option>Бонусы на депозит</option>
-            <option>Фрибеты</option>
-            <option>Страховые ставки</option>
-            <option>Кеш-бонус</option>
-            <option>Повышенные коэфициенты</option>
-            <option>Призы</option>
-            <option>Конкурсы</option>
-          </select>
+        <div class="form-group">
+          <div class="dropdown">
+            <button class="dropdown__button">Все бонусы</button>
+            <ul class="dropdown__list">
+              <li class="dropdown__list-item" data-value="newGamer">
+                Для новых игроков
+              </li>
+              <li class="dropdown__list-item" data-value="bonus">
+                Бонусы на депозит
+              </li>
+              <li class="dropdown__list-item" data-value="fitbet">Фрибеты</li>
+
+              <li class="dropdown__list-item" data-value="rate">
+                Страховые ставки
+              </li>
+              <li class="dropdown__list-item" data-value="cash">Кеш-бонус</li>
+              <li class="dropdown__list-item" data-value="coefficient">
+                Повышенные коэфициенты
+              </li>
+              <li class="dropdown__list-item" data-value="prize">Призы</li>
+              <li class="dropdown__list-item" data-value="competention">
+                Конкурсы
+              </li>
+            </ul>
+            <input
+              type="text"
+              name="select-category"
+              value=""
+              class="dropdown__input-hidden"
+            />
+          </div>
         </div>
 
         <div class="news__wrapper">
@@ -579,4 +598,5 @@
       <p>Дизайн и разработка сайта Digital Lamp</p>
     </footer>
   </body>
+  <script src="./dropDown.js"></script>
 </html>

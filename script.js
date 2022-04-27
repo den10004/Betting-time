@@ -163,6 +163,8 @@ var swiper = new Swiper(".forecastOther", {
   },
 });
 
+/**аккордион в header*/
+
 const list = document.querySelectorAll(".list");
 
 function accordion(e) {

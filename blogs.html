@@ -147,22 +147,43 @@
 
     <div class="headlineBlocks__wrapper" style="margin-bottom: 30px">
       <div class="headlineBlocks__wrapper">
-        <div class="dropDown">
-          <select class="dropDown__select">
-            <option>Все темы</option>
-            <option>Эксперты: бизнес</option>
-            <option>Эксперты: ставки</option>
-            <option>Футбол</option>
-            <option>Хоккей</option>
-            <option>Теннис</option>
-            <option>Баскетбол</option>
-            <option>Бокс</option>
-            <option>ММА</option>
-            <option>Шахматы</option>
-            <option>Киберспорт</option>
-            <option>Другие виды спорта</option>
-          </select>
-        </div>
+  
+
+        <div class="form-group">
+          <div class="dropdown">
+            <button class="dropdown__button">Все темы</button>
+            <ul class="dropdown__list">
+              <li class="dropdown__list-item" data-value="newGamer">
+                Эксперты: бизнес
+              </li>
+              <li class="dropdown__list-item" data-value="bonus">
+                Эксперты: ставки
+              </li>
+              <li class="dropdown__list-item" data-value="fitbet">Футбол</li>
+
+              <li class="dropdown__list-item" data-value="rate">
+                Баскетбол
+              </li>
+              <li class="dropdown__list-item" data-value="cash">Бокс</li>
+              <li class="dropdown__list-item" data-value="coefficient">
+                ММА
+              </li>
+              <li class="dropdown__list-item" data-value="prize">Шахматы</li>
+              <li class="dropdown__list-item" data-value="competention">
+                Киберспорт
+              </li>
+              <li class="dropdown__list-item" data-value="competention">
+                Другие виды спорта
+              </li>
+            </ul>
+            <input
+              type="text"
+              name="select-category"
+              value=""
+              class="dropdown__input-hidden"
+            />
+          </div>
+        </div
 
         <div class="blog">
           <div class="news__wrapper">
@@ -523,4 +544,5 @@
   </body>
   <script src="./swiper-bundle.js"></script>
   <script src="./script.js"></script>
+  <script src="./dropDown.js"></script>
 </html>
