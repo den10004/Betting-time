@@ -1,3 +1,82 @@
+.gridContainer {
+  max-width: 1440px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px 20px;
+  grid-template-areas:
+    "left right"
+    "button button";
+}
+
+.left {
+  grid-area: left;
+}
+.right {
+  grid-area: right;
+  position: relative;
+}
+.button {
+  grid-area: button;
+}
+
+@media screen and (max-width: 1023px) {
+  .gridContainer {
+    display: none;
+  }
+}
+
+.flexContainer {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .flexContainer {
+    display: block;
+  }
+}
+
+/***************************/
+
+.forecast__blockhedline {
+  display: grid;
+  grid-template-columns: 152px 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 94px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "one two"
+    "three four";
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5c5c5c;
+}
+
+@media screen and (max-width: 1280px) {
+  .forecast__blockhedline {
+    gap: 10px 24px;
+  }
+}
+
+.forecast__blockhedline__one {
+  grid-area: one;
+}
+
+.forecast__blockhedline__two {
+  grid-area: two;
+}
+
+.forecast__blockhedline__three {
+  grid-area: three;
+}
+
+.forecast__blockhedline__four {
+  grid-area: four;
+}
+
 .forecast {
   margin: 120px auto 0;
 }
@@ -87,11 +166,29 @@
 @media screen and (max-width: 768px) {
   .forecast__headline {
     font-size: 10px;
+    margin-top: 10px;
   }
+}
+
+.forecast__headline2 {
+  margin-top: 5px;
+  width: 100%;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5c5c5c;
+  display: flex;
+  justify-content: space-between;
 }
 
 .banner__wrapper > button:active {
   background: #009efd;
+}
+
+.forecast__matchBlock {
+  position: absolute;
+  bottom: 0;
 }
 
 .forecast__match {
@@ -102,12 +199,17 @@
   text-align: start;
 }
 
+.forecast__block {
+  position: absolute;
+  bottom: 0;
+}
+
 .forecast__match > h4 {
   margin: 0;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 34px;
   line-height: 120%;
   color: #272727;
 }

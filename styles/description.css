@@ -6,21 +6,54 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 130%;
   color: #272727;
 }
 
+@media screen and (max-width: 1023px) {
+  .description > h4 {
+    font-size: 14px;
+  }
+}
+
 .description__bet {
-  height: 50px;
+  height: 67px;
   background: #f4f4f4;
   display: flex;
   justify-content: space-between;
   padding-left: 10px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .description__bet {
+    height: 50px;
+  }
+}
+
+.description__bet > img {
+  width: 67px;
+  height: 20px;
+}
+
+.description__bet > span {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #272727;
+}
+
+@media screen and (max-width: 768px) {
+  .description__bet > span {
+    font-size: 14px;
+  }
 }
 
 .description__bet-left {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -34,9 +67,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 130%;
   color: #272727;
-  margin-left: 33px;
 }
 
 .description__text {
@@ -47,14 +78,19 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1023px) {
+  .description__text > p {
+    font-size: 12px;
+  }
 }
 
 .forecast__buttons {
   display: flex;
   justify-content: space-between;
-  margin: 10px auto;
-  width: 345px;
+  width: 100%;
 }
 
 .forecast__buttonOne {

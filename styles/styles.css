@@ -105,10 +105,70 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
   text-align: center;
   color: #ffffff;
   cursor: pointer;
+}
+
+.button215 {
+  width: 215px;
+  height: 67px;
+  background: #009efd;
+  border-radius: 5px;
+  border: 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .button215 {
+    font-size: 12px;
+  }
+}
+
+.button100 {
+  width: 100%;
+  height: 67px;
+  background: #009efd;
+  border-radius: 5px;
+  border: 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .button100 {
+    height: 50px;
+    font-size: 12px;
+  }
+}
+
+.button100:active {
+  background: linear-gradient(
+    102.9deg,
+    #32b8f8 3.56%,
+    #2fe06b 47.5%,
+    #32b8f8 92.36%
+  );
+}
+
+.button215:active {
+  background: linear-gradient(
+    102.9deg,
+    #32b8f8 3.56%,
+    #2fe06b 47.5%,
+    #32b8f8 92.36%
+  );
 }
 
 .button160:active {
@@ -121,24 +181,25 @@ body {
 }
 
 .buttonYes {
-  width: 170px;
-  height: 50px;
+  width: 48%;
+  height: 55px;
   border-radius: 5px;
   background: white;
   border: 1px solid #1daf38;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 14px;
   text-align: center;
   color: #1daf38;
   cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .buttonYes {
-    width: 150px;
+    font-size: 12px;
+    height: 50px;
   }
 }
 
@@ -148,8 +209,8 @@ body {
 }
 
 .buttonNo {
-  width: 170px;
-  height: 50px;
+  width: 48%;
+  height: 55px;
   border-radius: 5px;
   background: white;
   border: 1px solid #f44242;
@@ -163,9 +224,10 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .buttonNo {
-    width: 150px;
+    font-size: 12px;
+    height: 50px;
   }
 }
 
