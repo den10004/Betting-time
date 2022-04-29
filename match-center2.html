@@ -442,89 +442,88 @@
         </div>
 
         <div class="forecastNavWrap mt20">
-        <div class="form-group">
-          <div class="dropdown">
-            <button class="dropdown__button">Все чемпионаты</button>
-            <ul class="dropdown__list">
-              <li class="dropdown__list-item" data-value="newGamer">
-                Все лиги
-              </li>
-              <li class="dropdown__list-item" data-value="bonus">
-                Лига чемпионов
-              </li>
-              <li class="dropdown__list-item" data-value="fitbet">
-                Лига Европы
-              </li>
+          <div class="form-group">
+            <div class="dropdown">
+              <button class="dropdown__button">Все чемпионаты</button>
+              <ul class="dropdown__list">
+                <li class="dropdown__list-item" data-value="newGamer">
+                  Все лиги
+                </li>
+                <li class="dropdown__list-item" data-value="bonus">
+                  Лига чемпионов
+                </li>
+                <li class="dropdown__list-item" data-value="fitbet">
+                  Лига Европы
+                </li>
 
-              <li class="dropdown__list-item" data-value="rate">
-                Премьер-лига
-              </li>
-              <li class="dropdown__list-item" data-value="cash">
-                Кубок Англии
-              </li>
-              <li class="dropdown__list-item" data-value="coefficient">
-                Кубок английской лиги
-              </li>
-              <li class="dropdown__list-item" data-value="prize">Бундеслига</li>
-              <li class="dropdown__list-item" data-value="competention">
-                Кубок Германии
-              </li>
-              <li class="dropdown__list-item" data-value="rate">Ла Лига</li>
-              <li class="dropdown__list-item" data-value="cash">
-                Кубок Испании
-              </li>
-              <li class="dropdown__list-item" data-value="coefficient">
-                Серия А
-              </li>
-              <li class="dropdown__list-item" data-value="prize">
-                Кубок Италии
-              </li>
-              <li class="dropdown__list-item" data-value="competention">
-                Лига 1
-              </li>
+                <li class="dropdown__list-item" data-value="rate">
+                  Премьер-лига
+                </li>
+                <li class="dropdown__list-item" data-value="cash">
+                  Кубок Англии
+                </li>
+                <li class="dropdown__list-item" data-value="coefficient">
+                  Кубок английской лиги
+                </li>
+                <li class="dropdown__list-item" data-value="prize">
+                  Бундеслига
+                </li>
+                <li class="dropdown__list-item" data-value="competention">
+                  Кубок Германии
+                </li>
+                <li class="dropdown__list-item" data-value="rate">Ла Лига</li>
+                <li class="dropdown__list-item" data-value="cash">
+                  Кубок Испании
+                </li>
+                <li class="dropdown__list-item" data-value="coefficient">
+                  Серия А
+                </li>
+                <li class="dropdown__list-item" data-value="prize">
+                  Кубок Италии
+                </li>
+                <li class="dropdown__list-item" data-value="competention">
+                  Лига 1
+                </li>
 
-              <li class="dropdown__list-item" data-value="rate">Ла Лига</li>
-              <li class="dropdown__list-item" data-value="cash">
-                Кубок Франции
-              </li>
-              <li class="dropdown__list-item" data-value="coefficient">
-                Эредивизи
-              </li>
-              <li class="dropdown__list-item" data-value="prize">
-                Кубок Нидерландов
-              </li>
-              <li class="dropdown__list-item" data-value="competention">
-                Лига наций
-              </li>
-              <li class="dropdown__list-item" data-value="competention">
-                ЧМ-2022 (Европа)
-              </li>
-            </ul>
-            <input
-              type="text"
-              name="select-category"
-              value=""
-              class="dropdown__input-hidden"
-            />
+                <li class="dropdown__list-item" data-value="rate">Ла Лига</li>
+                <li class="dropdown__list-item" data-value="cash">
+                  Кубок Франции
+                </li>
+                <li class="dropdown__list-item" data-value="coefficient">
+                  Эредивизи
+                </li>
+                <li class="dropdown__list-item" data-value="prize">
+                  Кубок Нидерландов
+                </li>
+                <li class="dropdown__list-item" data-value="competention">
+                  Лига наций
+                </li>
+                <li class="dropdown__list-item" data-value="competention">
+                  ЧМ-2022 (Европа)
+                </li>
+              </ul>
+              <input
+                type="text"
+                name="select-category"
+                value=""
+                class="dropdown__input-hidden"
+              />
+            </div>
+          </div>
+
+          <div class="navigation mt20">
+            <button class="navigation__link-deactive btn">
+              <a href="#">Все матчи</a>
+            </button>
+            <button class="navigation__link-active btn">
+              <a href="#">Матчи сегодня</a>
+            </button>
+            <button class="navigation__link-deactive btn">
+              <a href="#">Матчи завтра</a>
+            </button>
           </div>
         </div>
-
-        <div class="navigation mt20">
-          <button class="navigation__link-deactive btn">
-            <a href="#">Все матчи</a>
-          </button>
-          <button class="navigation__link-active btn">
-            <a href="#">Матчи сегодня</a>
-          </button>
-          <button class="navigation__link-deactive btn">
-            <a href="#">Матчи завтра</a>
-          </button>
-        </div>
       </div>
-
-
-
-
 
       <div class="today">
         <div>
@@ -534,11 +533,12 @@
               <img src="./images/flag1.png" />
               <p>КХЛ</p>
             </div>
-            <div class="today__table-hedline font">
-              <p>Матч</p>
-              <p>Хозяева</p>
-              <p>Ничья</p>
-              <p>Гости</p>
+
+            <div class="today__table-hedline">
+              <p class="today__table-hedline-p">Матч</p>
+              <p style="text-align: center">Хозяева</p>
+              <p style="text-align: center">Ничья</p>
+              <p style="text-align: center">Гости</p>
             </div>
           </div>
 
@@ -568,11 +568,11 @@
               <img src="./images/flag2.png" />
               <p>Лига Европы</p>
             </div>
-            <div class="today__table-hedline font">
-              <p>Матч</p>
-              <p>Хозяева</p>
-              <p>Ничья</p>
-              <p>Гости</p>
+            <div class="today__table-hedline">
+              <p class="today__table-hedline-p">Матч</p>
+              <p style="text-align: center">Хозяева</p>
+              <p style="text-align: center">Ничья</p>
+              <p style="text-align: center">Гости</p>
             </div>
           </div>
 
@@ -859,7 +859,7 @@
       <p>Дизайн и разработка сайта Digital Lamp</p>
     </footer>
   </body>
-  <script src="./swiper-bundle.js"></script>
-  <script src="./script.js"></script>
-  <script src="./dropDown.js"></script>
+  <script src="./js/swiper-bundle.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/dropDown.js"></script>
 </html>
