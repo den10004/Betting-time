@@ -1,11 +1,32 @@
-.forecastSliderWrap {
-  width: 430px;
-  margin: 0 auto;
+.forecastNavWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 1000px) {
+  .forecastNavWrap {
+    flex-direction: column;
+  }
+}
+
+.forecastSliderWrap {
+  width: 550px;
+  /* margin: 0 auto;*/
+}
+
+@media screen and (max-width: 1000px) {
   .forecastSliderWrap {
-    width: 95%;
+    margin: 20px auto 0 auto;
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .forecastSliderWrap {
+    margin: 20px 0 0 0;
+    width: 90%;
   }
 }
 

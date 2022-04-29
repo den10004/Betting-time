@@ -1,30 +1,61 @@
 .banner {
-  display: flex;
   margin-top: 10px;
 }
 
 .banner__wrapper {
   position: relative;
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 490px) {
   .banner__wrapper {
-    width: 95%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .banner__wrapper-wrap {
+    height: 250px;
   }
 }
 
 .banner__wrapper > img {
   width: 100%;
+  height: 350px;
+  overflow-x: hidden;
 }
 
-.banner__wrapper > button {
+@media screen and (max-width: 490px) {
+  .banner__wrapper > img {
+    height: 250px;
+  }
+}
+
+.bunner-logo {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 30px;
+  left: 122px;
+}
+
+@media screen and (max-width: 768px) {
+  .bunner-logo {
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .bunner-logo > img {
+    width: 80%;
+  }
+}
+
+.bunner-logo > button {
   width: 160px;
   height: 50px;
-  bottom: 20px;
-  left: 10px;
+  margin-top: 50px;
   background: linear-gradient(
     102.9deg,
     #32b8f8 3.56%,
@@ -43,13 +74,67 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 425px) {
-  .banner__wrapper > button {
+@media screen and (max-width: 490px) {
+  .bunner-logo > button {
+    margin-top: 20px;
     width: 120px;
     height: 40px;
   }
 }
 
-.banner__wrapper > button:active {
+@media screen and (max-width: 375px) {
+  .bunner-logo > button {
+    margin-top: 40px;
+  }
+}
+
+.bunner-logo > button:active {
   background: #009efd;
+}
+
+.bunner-logo {
+  position: absolute;
+}
+
+.banner-pagination {
+  position: absolute;
+  bottom: 30px !important;
+  width: auto !important;
+  left: 120px !important;
+  z-index: 10;
+  cursor: pointer !important;
+}
+
+@media screen and (max-width: 490px) {
+  .banner-pagination {
+    bottom: 10px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-pagination {
+    left: 15% !important;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 11px !important;
+  height: 11px !important;
+  background-color: #fff !important;
+}
+
+.banner-buttons {
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  border: none;
+  background: transparent;
+}
+
+.banner-button-next {
+  right: 23px;
+}
+
+.banner-button-prev {
+  left: 23px;
 }

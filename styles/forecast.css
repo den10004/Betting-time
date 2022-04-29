@@ -1,3 +1,23 @@
+@media screen and (max-width: 1439px) {
+  .forecast__slider-block > a > svg {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .forecast__slider-block > a > svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.startWraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .gridContainer {
   max-width: 1440px;
   margin: 10px auto;
