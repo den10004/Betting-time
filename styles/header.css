@@ -37,7 +37,6 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* padding: 24px 20px 24px 20px;*/
   align-items: center;
   box-sizing: border-box;
 }
@@ -370,13 +369,27 @@ input[type="checkbox"]:checked ~ label + ul {
   color: #009efd;
 }
 
+menu li {
+  display: inline-block;
+  width: 14%;
+  text-align: center;
+}
+
 .menu {
   width: 100%;
 }
 
+.menu a {
+  display: block;
+  padding: 3px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
 ul.menu {
   list-style: none;
-  width: 40%;
+  width: 95%;
+  /* width: 40%;*/
   margin: 0 auto;
   clear: both;
   display: flex;
@@ -400,6 +413,7 @@ ul.menu .list {
   width: 100%;
   box-sizing: border-box;
   display: block;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -417,22 +431,19 @@ ul.menu .list:after {
   top: 1px;
   padding: 0px 5px;
   color: #fff;
+  top: 3px;
 }
 
 ul.menu .list:first-child:after {
-  left: 77px;
+  right: 20px;
 }
 
 ul.menu .list:nth-child(2):after {
-  left: 95px;
+  right: 10px;
 }
 
 ul.menu .list:nth-child(3):after {
-  left: 60px;
-}
-
-ul.menu .list:nth-child(6):after {
-  left: 60px;
+  right: 30px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -506,9 +517,7 @@ ul.menu .active:after {
   transform: rotate(-90deg);
   opacity: 1;
   position: absolute;
-  /* right: 77px;*/
   top: 0px;
-  /* padding: 0px 5px;*/
   color: #fff;
 }
 
@@ -541,8 +550,6 @@ ul.menu .active > .items {
   clear: both;
   float: left;
   width: 100%;
-  top: 30px;
-  left: -20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -563,8 +570,7 @@ ul.menu .active > .items li:last-child {
 ul.menu .active > .items .active > .items {
   background-color: #2f4b67;
 }
-ul.menu .active > a {
-}
+
 ul.menu .active .list {
   background: #697d92;
 }
@@ -576,9 +582,7 @@ ul.menu .active .list a {
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  vertical-align: sub;
   background: #272727;
-  clear: both;
 }
 
 .link > a {
@@ -589,6 +593,7 @@ ul.menu .active .list a {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
   margin: 0 auto;
+  text-align: center;
 }
 
 .header__middleMin {
@@ -599,7 +604,6 @@ ul.menu .active .list a {
   background: #272727;
   width: 100%;
   height: auto;
-  /* min-height: 130px;*/
 }
 
 .header__middleMin > h1 {
