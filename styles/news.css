@@ -73,16 +73,28 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
   .news__wrapper {
+    display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
-    margin-top: 20px;
+    grid-gap: 10px;
   }
 }
+
 .news__wrapper-block {
   width: 100%;
+}
+
+.news__wrappers {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .news__wrappers {
+    margin-top: 30px;
+  }
 }

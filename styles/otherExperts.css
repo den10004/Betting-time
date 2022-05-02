@@ -1,5 +1,11 @@
 .otherExperts {
-  margin-top: 30px;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .otherExperts {
+    margin-top: 30px;
+  }
 }
 
 .otherExperts > h3 {
@@ -7,13 +13,39 @@
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 22px;
   color: #272727;
+}
+
+.otherExperts > h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  color: #272727;
+}
+
+@media screen and (max-width: 1024px) {
+  .otherExperts > h4 {
+    font-size: 18px;
+  }
 }
 
 .otherExperts__cards {
   display: flex;
   justify-content: space-between;
   width: 346px;
-  margin: 0 auto;
+  margin: 60px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .otherExperts__cards {
+    margin: 30px auto 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .otherExperts__cards {
+    flex-direction: column;
+    width: 158px;
+  }
 }

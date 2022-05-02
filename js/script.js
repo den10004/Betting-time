@@ -14,6 +14,7 @@ var swiper = new Swiper(".bannerSwiper", {
 var swiper = new Swiper(".bonusSwiper", {
   loop: true,
   centeredSlides: false,
+  spaceBetween: 20,
 
   navigation: {
     nextEl: ".swiper-button-bonus",
@@ -32,10 +33,13 @@ var swiper = new Swiper(".bonusSwiper", {
       slidesPerView: 2.5,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 3.5,
     },
     1280: {
       slidesPerView: 4,
+    },
+    1440: {
+      slidesPerView: 4.5,
     },
   },
 });
@@ -101,78 +105,155 @@ var swiper = new Swiper(".tabsForecast1", {
 
 var swiper = new Swiper(".forecastFootball", {
   loop: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  spaceBetween: 5,
+  slidesPerView: 2,
+  centeredSlides: false,
+  spaceBetween: 15,
   navigation: {
-    nextEl: ".next-forecast",
-    prevEl: ".prev-forecast",
+    nextEl: ".next-forecastF",
+    prevEl: ".prev-forecastF",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    375: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
   },
 });
 
 var swiper = new Swiper(".forecastVolleyball", {
   loop: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  spaceBetween: 5,
+  slidesPerView: 2,
+  centeredSlides: false,
+  spaceBetween: 15,
   navigation: {
     nextEl: ".next-forecastV",
     prevEl: ".prev-forecastV",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    375: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
   },
 });
 
 var swiper = new Swiper(".forecastTennis", {
   loop: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  spaceBetween: 5,
+  slidesPerView: 2,
+  centeredSlides: false,
+  spaceBetween: 15,
   navigation: {
     nextEl: ".next-forecastT",
     prevEl: ".prev-forecastT",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    375: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
   },
 });
 
 var swiper = new Swiper(".forecastHockey", {
   loop: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  spaceBetween: 5,
+  slidesPerView: 2,
+  centeredSlides: false,
+  spaceBetween: 15,
   navigation: {
     nextEl: ".next-forecastH",
     prevEl: ".prev-forecastH",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    375: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
   },
 });
 
 var swiper = new Swiper(".forecastBascetBall", {
   loop: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  spaceBetween: 5,
+  slidesPerView: 2,
+  centeredSlides: false,
+  spaceBetween: 15,
   navigation: {
     nextEl: ".next-forecastB",
     prevEl: ".prev-forecastB",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    375: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
   },
 });
 
 var swiper = new Swiper(".forecastCyber", {
   loop: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  spaceBetween: 5,
+  slidesPerView: 2,
+  centeredSlides: false,
+  spaceBetween: 15,
   navigation: {
     nextEl: ".next-forecastC",
     prevEl: ".prev-forecastC",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    375: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
   },
 });
 
 var swiper = new Swiper(".forecastOther", {
   loop: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  spaceBetween: 5,
+  slidesPerView: 2,
+  centeredSlides: false,
+  spaceBetween: 15,
   navigation: {
     nextEl: ".next-forecastO",
     prevEl: ".prev-forecastO",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    375: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
   },
 });
 

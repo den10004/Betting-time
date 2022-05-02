@@ -108,14 +108,16 @@
 }
 
 .forecast__image {
-  margin: 0px auto 0;
+  margin: 0 auto;
   position: relative;
 }
 
 .forecast__image > img {
   width: 100%;
   border-radius: 5px;
+  max-width: 768px;
 }
+
 .forecast__wrapperBlock {
   position: absolute;
   bottom: -10px;
@@ -181,6 +183,7 @@
   color: #5c5c5c;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
@@ -340,5 +343,7 @@ progress::-moz-progress-value {
 }
 
 .buttons-none {
-  width: 100px;
+  width: 70px;
+  justify-content: space-between;
+  display: flex;
 }

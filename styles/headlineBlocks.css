@@ -1,6 +1,12 @@
 .headlineBlocks__wrapper {
-  margin: 0 auto;
+  margin: 60px auto;
   width: 95%;
+}
+
+@media screen and (max-width: 1024px) {
+  .headlineBlocks__wrapper {
+    margin: 0 auto;
+  }
 }
 
 .headlineBlocks__headline {
@@ -70,18 +76,23 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .headlineBlocks__forecastPage-left > h4 {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 34px;
   color: #272727;
   margin: 0 0 0 10px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .headlineBlocks__forecastPage-left > h4 {
+    font-size: 18px;
+  }
 }
 
 .headlineBlocks__forecastPage-left > h4:active {
@@ -97,7 +108,20 @@
   align-items: center;
 }
 
-.headlineBlocks__forecastPage-left {
-  width: 220px;
-  height: 22px;
+.headlineBlocks__forecastPage-left > img {
+  width: 34px;
+}
+
+@media screen and (max-width: 1024px) {
+  .headlineBlocks__forecastPage-left > img {
+    width: 18px;
+  }
+}
+
+.forecast__headline-left {
+  display: flex;
+}
+
+.forecast__headline-left > p {
+  margin-right: 5px;
 }
