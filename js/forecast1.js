@@ -1,12 +1,12 @@
 let question = document.querySelectorAll(".expertCard__accordion");
 
 question.forEach((question) => {
-  question.addEventListener("click", (event) => {
+  question.addEventListener("click", () => {
     const active = document.querySelector(".expertCard__accordion.active");
-    if (active && active !== question) {
+    /* if (active && active !== question) {
       active.classList.toggle("active");
       active.nextElementSibling.style.maxHeight = 0;
-    }
+    }*/
     question.classList.toggle("active");
     const answer = question.nextElementSibling;
     if (question.classList.contains("active")) {
