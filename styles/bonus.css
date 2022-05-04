@@ -108,13 +108,3 @@
 .bonusGet__block > ul > li::marker {
   font-size: 6px;
 }
-
-.otherBonus {
-  margin: 60px 0 60px 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .otherBonus {
-    margin: 30px 0 30px 0;
-  }
-}

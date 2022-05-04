@@ -42,11 +42,16 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 130%;
+  font-size: 14px;
   text-decoration: none;
   color: #5c5c5c;
   white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .forecastSliderWrap {
+    font-size: 12px;
+  }
 }
 
 .navigation__link-deactive {
@@ -62,9 +67,14 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 130%;
+  font-size: 14px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__link-active > a {
+    font-size: 12px;
+  }
 }
 
 .navigation > button {

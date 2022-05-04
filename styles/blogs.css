@@ -36,7 +36,6 @@
   font-size: 16px;
   line-height: 130%;
   color: #272727;
-  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -48,7 +47,29 @@
 .blogs__text2 {
   width: 100%;
   background: #f4f4f4;
-  padding: 15px;
+  padding: 15px 0 15px 0;
   margin: 15px 0 15px 0;
   box-sizing: border-box;
+}
+
+.s {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 60px;
+}
+
+@media screen and (max-width: 1440px) {
+  .s {
+    padding-left: 30px;
+  }
+}
+
+.blogs__text2-wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.blogs__text2-wrapper1 {
+  width: 95%;
+  margin: 0 auto;
 }
