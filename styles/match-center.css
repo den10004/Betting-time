@@ -1,13 +1,14 @@
 .m0auto {
+  margin-right: 0;
   margin-left: auto;
-  margin-right: auto;
-  width: 310px;
+  width: 330px;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .m0auto {
+    margin: 0 auto;
     width: 95%;
   }
 }

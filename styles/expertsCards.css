@@ -17,6 +17,7 @@
 
 .cards__card > img {
   width: 100%;
+  cursor: pointer;
 }
 
 .cards__card-description {
