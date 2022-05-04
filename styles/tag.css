@@ -28,7 +28,7 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 12px;
   color: #009efd;
   padding: 0px 10px 0px 10px;
@@ -37,4 +37,10 @@
   align-items: center;
   margin: 0px 15px 5px 0;
   cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .tag__block > button {
+    font-size: 10px;
+  }
 }

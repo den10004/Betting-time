@@ -240,7 +240,7 @@
 }
 
 .forecast__matchBlock {
-  position: absolute;
+  margin-top: 20px;
   bottom: 0;
 }
 
