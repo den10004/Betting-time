@@ -22,56 +22,76 @@
         </div>
 
         <div class="header__middle">
-          <ul class="menu">
-            <li class="list">
-              <a href="#">Прогнозы</a>
+          <nav>
+            <ul class="nav-bar">
+              <li class="nav-bar_item dropdown">
+                <a href="#">Прогнозы</a>
+                <ul class="project">
+                  <li class="drop-item">
+                    <a href="./forecast.html">Все прогнозы</a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="./forecast2.html">На сегодня</a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="./forecast.html">На завтра</a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="./forecast.html">Завершённые прогнозы</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-bar_item dropdown">
+                <a href="#">Матч-центр</a>
+                <ul class="project">
+                  <li class="drop-item">
+                    <a href="./match-center.html">Все матчи</a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="./match-center.html">матчи сегодня</a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="./match-center.html">матчи завтра</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-bar_item dropdown">
+                <a href="#">Бонусы</a>
+                <ul class="project">
+                  <li class="drop-item">
+                    <a href="/bonus.html">Все бонусы</a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="/bonus.html">Для новых игроков</a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="/bonus.html">Бонусы на депозит</a>
+                  </li>
+                  <li class="drop-item"><a href="/bonus.html">Фрибеты</a></li>
+                  <li class="drop-item">
+                    <a href="/bonus.html">Страховые ставки</a>
+                  </li>
+                  <li class="drop-item"><a href="/bonus.html">Кеш-бонус</a></li>
+                  <li class="drop-item">
+                    <a href="/bonus.html">Повышенные коэфициенты</a>
+                  </li>
+                  <li class="drop-item"><a href="/bonus.html">Приз</a></li>
+                  <li class="drop-item"><a href="/bonus.html">Конкурсы</a></li>
+                </ul>
+              </li>
+              <li class="nav-bar_item">
+                <a href="./expertMain.html">Эксперты</a>
+              </li>
+              <li class="nav-bar_item">
+                <a href="./news.html" style="color: #009efd">Новости</a>
+              </li>
 
-              <ul class="items">
-                <li><a href="./forecast.html">Все прогнозы</a></li>
-                <li><a href="./forecast2.html">На сегодня</a></li>
-                <li><a href="./forecast.html">На завтра</a></li>
-                <li><a href="./forecast.html">Завершенные прогнозы</a></li>
-              </ul>
-            </li>
-            <li class="list">
-              <a href="#">Матч-центр</a>
-              <ul class="items">
-                <li><a href="./match-center.html">Все матчи</a></li>
-                <li><a href="./match-center.html">матчи сегодня</a></li>
-                <li><a href="./match-center.html">матчи завтра</a></li>
-              </ul>
-            </li>
-            <li class="list">
-              <a href="#">Бонусы</a>
-              <ul class="items">
-                <li><a href="/bonus.html">Все бонусы</a></li>
-                <li><a href="/bonus.html">Для новых игроков</a></li>
-                <li><a href="/bonus.html">Бонусы на депозит</a></li>
-                <li><a href="/bonus.html">Фрибеты</a></li>
-                <li><a href="/bonus.html">Страховые ставки</a></li>
-                <li><a href="/bonus.html">Кеш-бонус</a></li>
-                <li><a href="/bonus.html">Повышенные коэфициенты</a></li>
-                <li><a href="/bonus.html">Приз</a></li>
-                <li><a href="/bonus.html">Конкурсы</a></li>
-              </ul>
-            </li>
-
-            <li class="link">
-              <a href="./expertMain.html">Эксперты</a>
-            </li>
-
-            <li class="link">
-              <a href="./news.html">Новости</a>
-            </li>
-
-            <li class="link">
-              <a href="./blogs.html">Блоги</a>
-            </li>
-
-            <li class="link">
-              <a href="#">О нас</a>
-            </li>
-          </ul>
+              <li class="nav-bar_item">
+                <a href="./blogs.html">Блоги</a>
+              </li>
+              <li class="nav-bar_item"><a href="#">О нас</a></li>
+            </ul>
+          </nav>
         </div>
 
         <div class="header__left">
@@ -83,58 +103,85 @@
       </div>
 
       <div class="min">
-        <nav>
-          <input type="checkbox" name="menu" id="btn-menu" />
-          <label for="btn-menu" class="header-btn">
+        <nav class="header__container">
+          <a href="#popup1" class="btn">
             <img src="./images/header-button.png" alt="header-button" />
             <img src="./images/logo.png" alt="logo" />
-          </label>
+          </a>
 
-          <ul class="acor-container">
-            <input type="checkbox" name="chacor" id="chacor1" />
-            <label for="chacor1">Прогнозы</label>
-            <div class="acor-body">
-              <ul>
-                <li><a href="./forecast.html">Все прогнозы</a></li>
-                <li><a href="./forecast.html">На сегодня</a></li>
-                <li><a href="./forecast.html">На завтра</a></li>
-                <li><a href="./forecast.html">Завершенные прогнозы</a></li>
+          <div id="popup1" class="acor-container1">
+            <a href="#" class="acor-container1-overlay"></a>
+            <div class="">
+              <ul class="acor-container">
+                <input type="checkbox" name="chacor" id="chacor1" />
+                <label for="chacor1" class="headerDeactive">Прогнозы</label>
+                <div class="acor-body">
+                  <ul>
+                    <li><a href="./forecast.html">Все прогнозы</a></li>
+                    <li><a href="./forecast.html">На сегодня</a></li>
+                    <li><a href="./forecast.html">На завтра</a></li>
+                    <li><a href="./forecast.html">Завершенные прогнозы</a></li>
+                  </ul>
+                </div>
+
+                <input type="checkbox" name="chacor" id="chacor2" />
+                <label for="chacor2" class="headerDeactive">Матч-центр</label>
+                <div class="acor-body">
+                  <ul>
+                    <li><a href="./match-center.html">Все матчи</a></li>
+                    <li><a href="./match-center.html">матчи сегодня</a></li>
+                    <li><a href="./match-center.html">матчи завтра</a></li>
+                  </ul>
+                </div>
+
+                <input type="checkbox" name="chacor" id="chacor3" />
+                <label for="chacor3">Бонусы</label>
+                <div class="acor-body">
+                  <ul>
+                    <li>
+                      <a href="/bonus.html">Все бонусы</a>
+                    </li>
+                    <li>
+                      <a href="/bonus.html">Для новых игроков</a>
+                    </li>
+                    <li>
+                      <a href="/bonus.html">Бонусы на депозит</a>
+                    </li>
+                    <li>
+                      <a href="/bonus.html">Фрибеты</a>
+                    </li>
+                    <li>
+                      <a href="/bonus.html">Страховые ставки</a>
+                    </li>
+                    <li>
+                      <a href="/bonus.html">Кеш-бонус</a>
+                    </li>
+                    <li>
+                      <a href="/bonus.html">Повышенные коэфициенты</a>
+                    </li>
+                    <li><a href="/bonus.html">Приз</a></li>
+                    <li>
+                      <a href="/bonus.html">Конкурсы</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="acor-links">
+                  <a class="headerDeactive" href="./expertMain.html"
+                    >Эксперты</a
+                  >
+                  <a
+                    class="headerDeactive"
+                    href="./news.html"
+                    style="color: #009efd; opacity: 1"
+                    >Новости</a
+                  >
+                  <a class="headerDeactive" href="./blogs.html">Блоги</a>
+                  <a class="headerDeactive" href="#">О нас</a>
+                </div>
               </ul>
             </div>
-
-            <input type="checkbox" name="chacor" id="chacor2" />
-            <label for="chacor2">Матч-центр</label>
-            <div class="acor-body">
-              <ul>
-                <li><a href="./match-center.html">Все матчи</a></li>
-                <li><a href="./match-center.html">матчи сегодня</a></li>
-                <li><a href="./match-center.html">матчи завтра</a></li>
-              </ul>
-            </div>
-
-            <input type="checkbox" name="chacor" id="chacor3" />
-            <label for="chacor3">Бонусы</label>
-            <div class="acor-body">
-              <ul>
-                <li><a href="/bonus.html">Все бонусы</a></li>
-                <li><a href="/bonus.html">Для новых игроков</a></li>
-                <li><a href="/bonus.html">Бонусы на депозит</a></li>
-                <li><a href="/bonus.html">Фрибеты</a></li>
-                <li><a href="/bonus.html">Страховые ставки</a></li>
-                <li><a href="/bonus.html">Кеш-бонус</a></li>
-                <li><a href="/bonus.html">Повышенные коэфициенты</a></li>
-                <li><a href="/bonus.html">Приз</a></li>
-                <li><a href="/bonus.html">Конкурсы</a></li>
-              </ul>
-            </div>
-
-            <div class="acor-links">
-              <a href="./expertMain.html">Эксперты</a>
-              <a href="./news.html">Новости</a>
-              <a href="./blogs.html">Блоги</a>
-              <a href="#">О нас</a>
-            </div>
-          </ul>
+          </div>
         </nav>
 
         <div class="header__left">
