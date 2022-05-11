@@ -30,16 +30,7 @@ var swiper = new Swiper(".bonusSwiper", {
       slidesPerView: 1.4,
     },
     768: {
-      slidesPerView: 2.5,
-    },
-    1024: {
-      slidesPerView: 3.5,
-    },
-    1280: {
-      slidesPerView: 4,
-    },
-    1440: {
-      slidesPerView: 4.5,
+      slidesPerView: 2,
     },
   },
 });

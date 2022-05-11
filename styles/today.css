@@ -12,13 +12,13 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 130%;
   color: #272727;
   margin: 20px 0 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .headlineBlocks__wrapper > h4 {
     font-size: 14px;
   }
@@ -27,22 +27,34 @@
 .today__table {
   margin-top: 15px;
   display: flex;
+  align-items: center;
 }
 
 .today__table > img {
-  width: 21px;
-  height: 12px;
+  width: 32px;
+  height: 18px;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .today__table > img {
+    width: 21px;
+    height: 12px;
+  }
 }
 
 .today__table > p {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 130%;
+  font-size: 20px;
   color: #272727;
-  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .today__table > p {
+    font-size: 12px;
+  }
 }
 
 .today__table-hedline {
@@ -64,10 +76,17 @@
 
 .today__table-hedline > div {
   width: 51px;
-  height: 21px;
+  height: 30px;
   background-color: #f4f4f4;
   border-radius: 5px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .today__table-hedline > div {
+    width: 51px;
+    height: 21px;
+  }
 }
 
 .today__table-hedline > p {
@@ -75,8 +94,7 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 130%;
+  font-size: 26px;
   color: #272727;
 }
 
@@ -92,8 +110,13 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
-  font-size: 11px;
-  line-height: 13px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .today__table-hedline > div > p {
+    font-size: 11px;
+  }
 }
 
 .today__table-hedline-p {
@@ -104,9 +127,14 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 16px;
   color: #5c5c5c;
+}
+
+@media screen and (max-width: 768px) {
+  .today__table-hedline-p > span {
+    font-size: 10px;
+  }
 }
 
 .today > hr {

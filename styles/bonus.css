@@ -12,6 +12,50 @@
   width: 100%;
 }
 
+.bonus-slider-img {
+  width: 100%;
+}
+
+.bonus__text > h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  color: #272727;
+}
+
+@media screen and (max-width: 768px) {
+  .bonus__text > h4 {
+    font-size: 14px;
+  }
+}
+
+.bonus__text {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .bonus__text {
+    margin-top: 10px;
+  }
+}
+
+.bonus__text > p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #272727;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .bonus__text > p {
+    font-size: 12px;
+  }
+}
 .otherBonus > h3 {
   font-family: "Gilroy";
   font-style: normal;
