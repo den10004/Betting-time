@@ -42,6 +42,12 @@
   margin: 30px 0;
 }
 
+@media screen and (max-width: 1023px) {
+  .expertCard__tabs {
+    margin: 10px 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .expertCard__tabs {
     width: 230px;
