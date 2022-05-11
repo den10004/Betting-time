@@ -2,8 +2,24 @@
   margin: 120px auto 0 auto;
 }
 
-.blog {
-  margin: 60px auto 0 auto;
+@media screen and (max-width: 1024px) {
+  .blog {
+    margin: 30px auto 0 auto;
+  }
+}
+
+.blog__data {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5c5c5c;
+}
+
+@media screen and (max-width: 768px) {
+  .blog__data {
+    font-size: 14px;
+  }
 }
 
 .blog > p {

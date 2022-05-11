@@ -110,6 +110,7 @@
 .forecast__image {
   margin: 0 auto;
   position: relative;
+  width: 100%;
 }
 
 .forecast__image > img {
@@ -317,11 +318,10 @@
 }
 
 .forecast__match-block > p {
-  margin: 0 0 0 10px;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 130%;
   color: #272727;
   text-align: start;

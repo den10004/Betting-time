@@ -5,44 +5,61 @@
 .banner__wrapper {
   position: relative;
   margin: 0 auto;
-  width: 100%;
+  /*  width: 100%;*/
 }
-
+/*
 @media screen and (max-width: 490px) {
   .banner__wrapper {
-    height: 250px;
   }
 }
 
 @media screen and (max-width: 490px) {
   .banner__wrapper-wrap {
-    height: 250px;
   }
 }
 
-.banner__wrapper > img {
-  width: 100%;
-  height: 350px;
-  overflow-x: hidden;
+.banner__wrapper-wrap > img {
 }
 
 @media screen and (max-width: 490px) {
-  .banner__wrapper > img {
-    height: 250px;
+  .banner__wrapper-wrap > img {
   }
+}
+*/
+
+.banner__wrapper > img {
+  width: 100%;
+  height: auto;
 }
 
 .bunner-logo {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 30px;
+  /* top: 30px;*/
+  bottom: 50px;
   left: 122px;
 }
 
+@media screen and (max-width: 1024px) {
+  .bunner-logo {
+    bottom: 20px;
+  }
+}
+
+/*
 @media screen and (max-width: 768px) {
   .bunner-logo {
-    left: 15%;
+    left: 20px;
+    top: 20px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .bunner-logo {
+    left: 10px;
+    top: 10px;
   }
 }
 
@@ -51,11 +68,11 @@
     width: 80%;
   }
 }
-
+*/
 .bunner-logo > button {
   width: 160px;
   height: 50px;
-  margin-top: 50px;
+  /* margin-top: 50px;*/
   background: linear-gradient(
     102.9deg,
     #32b8f8 3.56%,
@@ -84,7 +101,7 @@
 
 @media screen and (max-width: 375px) {
   .bunner-logo > button {
-    margin-top: 40px;
+    margin-top: 15px;
   }
 }
 
@@ -145,3 +162,51 @@
     display: none;
   }
 }
+/*
+
+.midBanner {
+  display: none;
+}
+.minbanner {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .midBanner {
+    display: block;
+  }
+  .maxBanner {
+    display: none;
+  }
+  .minbanner {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .midBanner {
+    display: none;
+  }
+  .maxBanner {
+    display: none;
+  }
+  .minbanner {
+    display: block;
+    width: 100%;
+  }
+}
+
+.minbanner {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .maxBanner {
+    display: none;
+  }
+  .minbanner {
+    width: 100%;
+    display: block;
+  }
+}
+*/

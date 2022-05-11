@@ -1,17 +1,14 @@
 .cards__wrapper {
-  display: flex;
-  margin: 0 auto;
 }
 
 .cards__card {
-  width: 158px;
-  height: 265px;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 374px) {
   .cards__card {
     width: 140px;
-    height: 265px;
   }
 }
 
@@ -33,29 +30,44 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 17px;
   color: #272727;
   margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .cards__card-description > a > h5 {
+    font-size: 14px;
+  }
 }
 
 .cards__card-description > a > p {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 18px;
   color: #272727;
   margin: 5px 0 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .cards__card-description > a > p {
+    font-size: 12px;
+  }
 }
 
 .cards__card-calculation {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 24px;
   margin-top: 5px;
+}
+@media screen and (max-width: 1280px) {
+  .cards__card-calculation {
+    font-size: 14px;
+  }
 }
 
 .cards__paragraph {
@@ -63,12 +75,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 130%;
   color: #272727;
-  padding-left: 30px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .cards__paragraph {
     font-size: 12px;
   }
@@ -87,41 +97,28 @@
 }
 
 .cards {
-  margin: 20px auto;
+  margin: 50px auto;
   display: grid;
-  grid-template-rows: 265px;
-  grid-template-columns: 158px 158px 158px 158px 158px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
 }
 
 @media screen and (max-width: 960px) {
   .cards {
-    grid-template-rows: 265px 265px;
-    grid-template-columns: 158px 158px 158px 158px;
-    grid-gap: 30px;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cards {
-    grid-template-rows: 265px 265px;
-    grid-template-columns: 158px 158px 158px;
-    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media screen and (max-width: 560px) {
   .cards {
-    grid-template-rows: 265px 265px;
-    grid-template-columns: 158px 158px;
-    grid-gap: 30px;
-  }
-}
-
-@media screen and (max-width: 374px) {
-  .cards {
-    grid-template-rows: 265px 265px;
-    grid-template-columns: 140px 140px;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
   }
 }

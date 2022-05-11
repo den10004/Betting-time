@@ -1,5 +1,5 @@
 .news {
-  margin: 120px auto 0 auto;
+  margin: 100px auto 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -73,7 +73,6 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
-  margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -86,15 +85,27 @@
 }
 
 .news__wrapper-block {
-  width: 100%;
+  margin-top: 50px;
 }
 
-.news__wrappers {
-  margin-top: 60px;
+@media screen and (max-width: 768px) {
+  .news__wrapper-block {
+    margin-top: 20px;
+  }
 }
 
-@media screen and (max-width: 1024px) {
-  .news__wrappers {
-    margin-top: 30px;
+@media screen and (max-width: 768px) {
+  .news__wrapper-block {
+    margin-top: 20px;
+  }
+}
+
+.headlineBlocks__wrapper-cards {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .headlineBlocks__wrapper-cards {
+    margin-bottom: 16px;
   }
 }

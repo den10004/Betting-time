@@ -52,24 +52,14 @@
   box-sizing: border-box;
 }
 
-.s {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding-left: 60px;
-}
-
-@media screen and (max-width: 1440px) {
-  .s {
-    padding-left: 30px;
-  }
-}
-
 .blogs__text2-wrapper {
   margin: 0 auto;
   max-width: 1440px;
 }
 
-.blogs__text2-wrapper1 {
-  width: 95%;
-  margin: 0 auto;
+@media screen and (max-width: 1440px) {
+  .blogs__text2-wrapper1 {
+    width: 95%;
+    margin: 0 auto;
+  }
 }
