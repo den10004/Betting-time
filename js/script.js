@@ -45,10 +45,13 @@ var swiper = new Swiper(".expertsSwiper", {
   },
   breakpoints: {
     320: {
-      slidesPerView: 3,
+      slidesPerView: 2.5,
     },
     375: {
-      slidesPerView: 3.5,
+      slidesPerView: 2.7,
+    },
+    425: {
+      slidesPerView: 3,
     },
     768: {
       slidesPerView: 6,

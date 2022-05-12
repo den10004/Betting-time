@@ -115,18 +115,11 @@
   margin-right: 30px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .navigation > button {
     margin-right: 10px;
   }
 }
-
-/*
-@media screen and (max-width: 349px) {
-  .navigation > button:nth-last-child(1) {
-    margin-top: 10px;
-  }
-}*/
 
 .navigation {
   display: flex;
