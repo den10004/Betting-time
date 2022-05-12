@@ -7,7 +7,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
   };
 }
 
-document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
+document.querySelectorAll(".dropdown1").forEach(function (dropDownWrapper) {
   const dropDownBtn = dropDownWrapper.querySelector(".dropdown__button");
   const dropDownList = dropDownWrapper.querySelector(".dropdown__list");
   const dropDownListItems = dropDownList.querySelectorAll(

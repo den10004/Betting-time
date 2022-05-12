@@ -18,6 +18,10 @@
   position: relative;
 }
 
+.dropdown1 {
+  position: relative;
+}
+
 .dropdown__button {
   display: block;
   width: 460px;
