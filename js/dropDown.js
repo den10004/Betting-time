@@ -13,6 +13,7 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
   const dropDownListItems = dropDownList.querySelectorAll(
     ".dropdown__list-item"
   );
+
   const dropDownInput = dropDownWrapper.querySelector(
     ".dropdown__input-hidden"
   );

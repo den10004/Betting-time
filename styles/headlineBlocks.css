@@ -94,7 +94,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .headlineBlocks__forecastPage-left > h4 {
     font-size: 18px;
   }
@@ -117,7 +117,7 @@
   width: 34px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .headlineBlocks__forecastPage-left > img {
     width: 18px;
   }

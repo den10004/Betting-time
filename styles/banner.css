@@ -5,31 +5,25 @@
 .banner__wrapper {
   position: relative;
   margin: 0 auto;
-  /*  width: 100%;*/
-}
-/*
-@media screen and (max-width: 490px) {
-  .banner__wrapper {
-  }
 }
 
-@media screen and (max-width: 490px) {
-  .banner__wrapper-wrap {
-  }
-}
-
-.banner__wrapper-wrap > img {
-}
-
-@media screen and (max-width: 490px) {
-  .banner__wrapper-wrap > img {
-  }
-}
-*/
-
-.banner__wrapper > img {
+.banner__wrapper > div > img {
   width: 100%;
   height: auto;
+  border-radius: 5px;
+}
+
+.banner__wrapper > div:last-child {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner__wrapper > div:first-child {
+    display: none;
+  }
+  .banner__wrapper > div:last-child {
+    display: block;
+  }
 }
 
 .bunner-logo {
@@ -37,42 +31,20 @@
   display: flex;
   flex-direction: column;
   /* top: 30px;*/
-  bottom: 50px;
-  left: 122px;
+  bottom: 60px;
+  left: 12%;
 }
 
 @media screen and (max-width: 1024px) {
   .bunner-logo {
     bottom: 20px;
-  }
-}
-
-/*
-@media screen and (max-width: 768px) {
-  .bunner-logo {
-    left: 20px;
-    top: 20px;
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .bunner-logo {
     left: 10px;
-    top: 10px;
   }
 }
 
-@media screen and (max-width: 620px) {
-  .bunner-logo > img {
-    width: 80%;
-  }
-}
-*/
 .bunner-logo > button {
   width: 160px;
   height: 50px;
-  /* margin-top: 50px;*/
   background: linear-gradient(
     102.9deg,
     #32b8f8 3.56%,
@@ -115,22 +87,18 @@
 
 .banner-pagination {
   position: absolute;
-  bottom: 30px !important;
+  bottom: 20px !important;
   width: auto !important;
-  left: 120px !important;
+  left: 12% !important;
   z-index: 10;
   cursor: pointer !important;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 1024px) {
   .banner-pagination {
     bottom: 10px !important;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner-pagination {
-    left: 15% !important;
+    left: auto !important;
+    right: 10px !important;
   }
 }
 
@@ -162,51 +130,3 @@
     display: none;
   }
 }
-/*
-
-.midBanner {
-  display: none;
-}
-.minbanner {
-  display: none;
-}
-
-@media screen and (max-width: 1024px) {
-  .midBanner {
-    display: block;
-  }
-  .maxBanner {
-    display: none;
-  }
-  .minbanner {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 426px) {
-  .midBanner {
-    display: none;
-  }
-  .maxBanner {
-    display: none;
-  }
-  .minbanner {
-    display: block;
-    width: 100%;
-  }
-}
-
-.minbanner {
-  display: none;
-}
-
-@media screen and (max-width: 768px) {
-  .maxBanner {
-    display: none;
-  }
-  .minbanner {
-    width: 100%;
-    display: block;
-  }
-}
-*/

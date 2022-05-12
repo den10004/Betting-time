@@ -76,28 +76,18 @@
   font-weight: 400;
   font-size: 18px;
   color: #272727;
-}
-
-@media screen and (max-width: 1280px) {
-  .cards__paragraph {
-    font-size: 12px;
-  }
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 768px) {
   .cards__paragraph {
-    padding-left: 20px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .cards__paragraph {
-    padding-left: 10px;
+    font-size: 12px;
+    margin-top: 30px;
   }
 }
 
 .cards {
-  margin: 50px auto;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
