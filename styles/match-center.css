@@ -17,59 +17,79 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 130%;
+  font-size: 34px;
   color: #272727;
+}
+
+@media screen and (max-width: 768px) {
+  .matchCenter > h2 {
+    font-size: 18px;
+  }
 }
 
 .matchCenter__block {
   display: flex;
-  justify-content: space-between;
-  max-width: 345px;
-  margin: 15px auto 0 auto;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
   .matchCenter__block {
-    margin: 5px auto 0 auto;
+    margin-top: 5px;
   }
 }
 
 .matchCenter__block-right {
   display: flex;
   flex-direction: column;
-  max-width: 157px;
+  width: 200px;
 }
 
 .matchCenter__block-left-description {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 15px;
   color: #5c5c5c;
-  width: 183px;
+}
+
+@media screen and (max-width: 768px) {
+  .matchCenter__block-left-description {
+    font-size: 10px;
+  }
 }
 
 .matchCenter__block-left-logos {
   display: flex;
-  justify-content: space-between;
   margin-top: 10px;
 }
 
 .matchCenter__block-left-logos-logo {
   display: flex;
-  width: 89px;
-  height: 133px;
+  width: 178px;
+  height: 266px;
   background: #ffffff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .matchCenter__block-left-logos-logo {
+    width: 89px;
+    height: 133px;
+  }
 }
 
 .matchCenter__block-left-logos-logo > img {
-  margin: 20px auto;
-  width: 67px;
-  height: 94px;
+  margin: 0px auto;
+  width: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+  .matchCenter__block-left-logos-logo > img {
+    width: auto;
+  }
 }
 
 .matchCenter__text {

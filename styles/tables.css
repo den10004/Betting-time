@@ -29,6 +29,7 @@
 .tables__block-tab {
   display: flex;
   margin-bottom: 5px;
+  align-items: center;
 }
 
 .tables__block-tab-text {
@@ -47,7 +48,8 @@
 .figure {
   display: flex;
   width: 100px;
-  margin-top: 90px;
+  height: 176px;
+  margin-top: 65px;
 }
 
 .figure1 {
@@ -56,12 +58,12 @@
   border-bottom: 3px solid #009efd;
   border-left: none;
   height: 170px;
-  width: 50%;
+  width: 50px;
 }
 
 .figure2 {
   height: 85px;
-  width: 50%;
+  width: 50px;
   border-top: none;
   border-left: none;
   border-right: none;

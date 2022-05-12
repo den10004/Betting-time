@@ -247,7 +247,8 @@ body {
 }
 
 .buttonWhite {
-  max-width: 157px;
+  width: 100%;
+  /*  max-width: 157px;*/
   height: 50px;
   background: white;
   border-radius: 5px;
@@ -255,11 +256,16 @@ body {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 16px;
   text-align: center;
   color: #009efd;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .buttonWhite {
+    font-size: 12px;
+  }
 }
 
 .buttonWhite:active {
@@ -289,13 +295,15 @@ body {
   color: #272727;
 }
 
+/*clock label*/
+
 .clock__label {
   position: absolute;
   display: flex;
   justify-content: space-between;
   padding: 0 10px 0 10px;
-  width: 130px;
-  height: 22px;
+  width: 180px;
+  height: 30px;
   background: #009efd;
   border-radius: 5px;
   color: white;
@@ -305,16 +313,35 @@ body {
   left: 5px;
 }
 
+@media screen and (max-width: 1024px) {
+  .clock__label {
+    width: 130px;
+    height: 22px;
+  }
+}
+
 .clock__label > img {
-  width: 12px;
+  width: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .clock__label > img {
+    width: 12px;
+  }
 }
 
 .clock__label > span {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 15px;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .clock__label > span {
+    font-size: 10px;
+  }
 }
 
 /******Forecast button slider*******/
