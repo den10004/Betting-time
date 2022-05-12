@@ -74,6 +74,16 @@ body {
   }
 }
 
+.mt4020 {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .mt4020 {
+    margin-top: 20px;
+  }
+}
+
 .mt60 {
   margin-top: 60px;
 }

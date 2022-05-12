@@ -82,7 +82,7 @@ var swiper = new Swiper(".expertsForecast", {
     },
   },
 });
-
+/*
 var swiper = new Swiper(".tabsForecast1", {
   loop: false,
   slidesPerView: "auto",
@@ -92,7 +92,7 @@ var swiper = new Swiper(".tabsForecast1", {
   navigation: {
     nextEl: ".swiper-button-expert",
   },
-});
+});*/
 
 var swiper = new Swiper(".forecastFootball", {
   loop: true,
