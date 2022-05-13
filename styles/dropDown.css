@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .dropdown__button {
     width: 100%;
     font-size: 12px;
@@ -97,10 +97,9 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .dropdown__list {
     width: 100%;
-    font-size: 12px;
   }
 }
 
@@ -113,6 +112,13 @@
   padding: 0;
   padding: 13px 20px;
   cursor: pointer;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown__list-item {
+    font-size: 12px;
+  }
 }
 
 .dropdown__list-item:hover {

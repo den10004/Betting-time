@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .tag__block > button {
     font-size: 10px;
     height: 22px;

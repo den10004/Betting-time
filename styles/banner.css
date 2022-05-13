@@ -63,6 +63,13 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 320px) {
+  .bunner-logo > button {
+    width: 160px;
+    height: 40px;
+  }
+}
+
 .bunner-logo > button:active {
   background: #009efd;
 }
