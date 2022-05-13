@@ -88,6 +88,12 @@ body {
   margin-top: 60px;
 }
 
+@media screen and (max-width: 768px) {
+  .mt60 {
+    margin-top: 20px;
+  }
+}
+
 .mt30 {
   margin-top: 30px;
 }
@@ -124,10 +130,16 @@ body {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   text-align: center;
   color: #ffffff;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .button160 {
+    font-size: 12px;
+  }
 }
 
 .button215 {

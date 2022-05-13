@@ -33,7 +33,7 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 14px;
   color: #272727;
   padding: 0 10px 0 10px;
@@ -51,6 +51,7 @@
 @media screen and (max-width: 425px) {
   .dropdown__button {
     width: 100%;
+    font-size: 12px;
   }
 }
 
@@ -83,7 +84,7 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 14px;
   color: #272727;
   padding: 0;
@@ -99,6 +100,7 @@
 @media screen and (max-width: 425px) {
   .dropdown__list {
     width: 100%;
+    font-size: 12px;
   }
 }
 
